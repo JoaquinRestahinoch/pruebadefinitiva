@@ -1,0 +1,66 @@
+{
+  "product_id": "d69779f1-ffcd-4b39-9caa-985f08a0c5cc",
+  "original_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\d69779f1-ffcd-4b39-9caa-985f08a0c5cc.jpg",
+  "created_at": "2026-02-09T23:08:52.231058+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Camiseta con inscripción SLIDDY",
+    "category_guess": "apparel",
+    "product_description_long": "Una camiseta de manga corta de color beige claro o crema, con cuello redondo y diseño liso. En el centro del pecho, lleva la inscripción 'SLIDDY' en un tono marrón rojizo. La prenda está extendida sobre una superficie, mostrando un tejido suave y sin arrugas evidentes.",
+    "key_visual_features": [
+      "Camiseta de manga corta",
+      "Cuello redondo",
+      "Inscripción 'SLIDDY' en el pecho",
+      "Color uniforme y claro",
+      "Tejido liso y sin patrón"
+    ],
+    "materials": [
+      "Tela"
+    ],
+    "colors": [
+      "Beige claro",
+      "Crema",
+      "Marrón rojizo"
+    ],
+    "finish_texture": [
+      "Acabado mate",
+      "Textura de tela suave"
+    ],
+    "prompt_boosters": [
+      "Mantener la forma de la camiseta",
+      "Preservar el cuello redondo de la prenda",
+      "Asegurar la visibilidad clara de la inscripción 'SLIDDY'",
+      "Mantener el color beige claro o crema de la tela",
+      "Respetar el tono marrón rojizo de la inscripción",
+      "Evitar deformaciones en el tejido",
+      "Mantener la textura suave y uniforme de la tela"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T23:08:52.230046+00:00",
+  "tags": [],
+  "notes": ""
+}

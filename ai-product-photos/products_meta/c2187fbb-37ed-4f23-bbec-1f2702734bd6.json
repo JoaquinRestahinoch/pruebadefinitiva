@@ -1,0 +1,60 @@
+{
+  "product_id": "c2187fbb-37ed-4f23-bbec-1f2702734bd6",
+  "original_filename": "Sillon-Grecia-portada-blog.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\c2187fbb-37ed-4f23-bbec-1f2702734bd6.jpg",
+  "created_at": "2026-02-06T14:48:39.950331+00:00",
+  "has_secondary": false,
+  "secondary_file": null,
+  "intent": {
+    "product_type": "",
+    "aesthetic": "minimalista",
+    "auto_config": {
+      "environment_type": "studio",
+      "scene": "white",
+      "style": "ecommerce",
+      "lighting": "studio_soft",
+      "chips": [
+        "minimal",
+        "modern",
+        "clean"
+      ],
+      "custom_text": "Sombras suaves reales, textura de tela nítida, sin halos ni distorsiones."
+    },
+    "status": "ok"
+  },
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-06T14:48:49.398034+00:00",
+    "data": {
+      "category": "Furniture",
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
+      "finish": "matte",
+      "brand_visible": false,
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "white",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "minimal",
+          "modern",
+          "clean"
+        ],
+        "custom_text": "Sombras suaves reales, textura de tela nítida, sin halos ni distorsiones."
+      },
+      "risks": [
+        "fabric_texture",
+        "thin_edges",
+        "seams_accuracy",
+        "button_consistency"
+      ],
+      "notes": "Sofá de 2 plazas con respaldo capitoneado y patas de madera pequeñas, tapizado en tela de color claro."
+    }
+  },
+  "tags": [],
+  "notes": ""
+}

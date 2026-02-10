@@ -1,0 +1,61 @@
+{
+  "product_id": "81b88192-dc15-474c-ad17-ea7126a2b2a9",
+  "original_filename": "61-cde351cba6835b634717321389294728-1024-1024.webp",
+  "content_type": "image/webp",
+  "stored_file": "products\\81b88192-dc15-474c-ad17-ea7126a2b2a9.webp",
+  "created_at": "2026-02-06T14:39:07.756508+00:00",
+  "has_secondary": false,
+  "secondary_file": null,
+  "intent": {
+    "product_type": "",
+    "aesthetic": "minimalista",
+    "auto_config": {
+      "environment_type": "studio",
+      "scene": "white",
+      "style": "ecommerce",
+      "lighting": "studio_soft",
+      "chips": [
+        "minimal",
+        "clean",
+        "modern"
+      ],
+      "custom_text": "sombras suaves y realistas, control de reflejos en superficies transparentes, texto nítido y sin distorsiones, sin aberraciones cromáticas."
+    },
+    "status": "ok"
+  },
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-06T14:39:16.526673+00:00",
+    "data": {
+      "category": "water_bottle",
+      "materials": [
+        "plastic",
+        "silicone"
+      ],
+      "finish": "mixed",
+      "brand_visible": true,
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "white",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "minimal",
+          "clean",
+          "modern"
+        ],
+        "custom_text": "sombras suaves y realistas, control de reflejos en superficies transparentes, texto nítido y sin distorsiones, sin aberraciones cromáticas."
+      },
+      "risks": [
+        "plastic_reflections",
+        "label_text",
+        "thin_edges",
+        "branding_critical",
+        "transparency_rendering"
+      ],
+      "notes": "La botella es de plástico transparente con una tapa y pajita de plástico opaco. El texto 'GREEN' y la etiqueta 'tritan' son elementos clave que deben ser perfectamente legibles. La preferencia por 'minimalista' sugiere un fondo limpio y sin distracciones."
+    }
+  },
+  "tags": [],
+  "notes": ""
+}

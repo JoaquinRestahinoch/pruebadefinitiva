@@ -1,0 +1,32 @@
+{
+  "product_id": "34ebb5d0-da60-41c2-bb84-e9658256a92b",
+  "original_filename": "WhatsApp Image 2026-02-06 at 15.37.48.jpeg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\34ebb5d0-da60-41c2-bb84-e9658256a92b.jpeg",
+  "created_at": "2026-02-06T18:49:07.340940+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "tags": [],
+  "notes": ""
+}

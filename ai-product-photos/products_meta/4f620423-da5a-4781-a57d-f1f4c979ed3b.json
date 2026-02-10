@@ -1,0 +1,22 @@
+{
+  "product_id": "4f620423-da5a-4781-a57d-f1f4c979ed3b",
+  "created_at": "2026-02-06T03:11:49.201735+00:00",
+  "original_primary_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "original_secondary_filename": "PHOTO-2026-02-04-23-08-46.jpg",
+  "assets": [
+    {
+      "name": "primary",
+      "filename": "primary.jpg",
+      "content_type": "image/jpeg",
+      "path": "products\\4f620423-da5a-4781-a57d-f1f4c979ed3b\\primary.jpg"
+    },
+    {
+      "name": "secondary",
+      "filename": "secondary.jpg",
+      "content_type": "image/jpeg",
+      "path": "products\\4f620423-da5a-4781-a57d-f1f4c979ed3b\\secondary.jpg"
+    }
+  ],
+  "tags": [],
+  "notes": ""
+}

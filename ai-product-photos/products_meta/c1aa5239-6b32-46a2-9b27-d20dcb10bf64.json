@@ -1,0 +1,41 @@
+{
+  "product_id": "c1aa5239-6b32-46a2-9b27-d20dcb10bf64",
+  "created_at": "2026-02-05T15:43:48.743418+00:00",
+  "views": {
+    "front": {
+      "path": "products\\c1aa5239-6b32-46a2-9b27-d20dcb10bf64\\front.jpg",
+      "content_type": "image/jpeg"
+    },
+    "back": {
+      "path": "products\\c1aa5239-6b32-46a2-9b27-d20dcb10bf64\\back.jpg",
+      "content_type": "image/jpeg"
+    }
+  },
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T15:43:56.453959+00:00",
+    "data": {
+      "category": "apparel",
+      "primary_color": "cream",
+      "secondary_color": "maroon",
+      "material": "cotton",
+      "finish": "matte",
+      "brand_visible": true,
+      "brand_name": "SLIDDY",
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "white",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "clean",
+          "minimal"
+        ]
+      },
+      "quality_issues": [],
+      "notes": "The product is an off-white t-shirt with a reddish-brown 'SLIDDY' logo printed on the chest. The fabric appears to be cotton. For e-commerce, it's recommended to photograph the t-shirt on a clean, plain background (such as white) with soft, even studio lighting to ensure true color representation and highlight fabric texture. The extraneous items in the current photo (wooden table, phone, hand, tiny skateboard) should be removed for a professional product listing."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "product_id": "07c905e5-17e1-476b-8ce2-42701c551ba1",
+  "original_filename": "img_8414-1ede3eab3d96ef2f3617595488677752-480-0.webp",
+  "content_type": "image/webp",
+  "stored_file": "products\\07c905e5-17e1-476b-8ce2-42701c551ba1.webp",
+  "created_at": "2026-02-09T22:05:10.335776+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Red Sports Jersey",
+    "category_guess": "apparel",
+    "product_description_long": "A prominent red sports jersey featuring \"FEVER\" and \"22\" printed in white on the front, with a white Nike swoosh logo visible on the upper chest. The jersey has a V-neck design and armholes, both accented with striped orange and red trim. A product tag, partially legible as \"WNBA FEVER FUEL EDITION,\" is sewn onto the lower right side of the garment. It is displayed hanging on a simple wooden hanger against a dark, textured background.",
+    "key_visual_features": [
+      "Red sports jersey",
+      "White text \"FEVER 22\"",
+      "White Nike swoosh logo",
+      "V-neck collar with orange and red striped trim",
+      "Armholes with orange and red striped trim",
+      "Product tag on the lower right side",
+      "Hanging on a wooden hanger"
+    ],
+    "materials": [
+      "fabric",
+      "wood"
+    ],
+    "colors": [
+      "red",
+      "white",
+      "orange",
+      "brown"
+    ],
+    "finish_texture": [
+      "smooth fabric",
+      "ribbed trim"
+    ],
+    "prompt_boosters": [
+      "Mantener el color rojo intenso del jersey.",
+      "Preservar la tipografía y colores de \"FEVER 22\" y el logo Nike.",
+      "Respetar el diseño del cuello en V y el ribete a rayas de naranja y rojo.",
+      "Mantener la apariencia de la tela deportiva, incluyendo las líneas verticales sutiles.",
+      "Asegurar la presencia del tag inferior con texto legible parcial.",
+      "Representar el jersey colgado de forma natural en la percha de madera.",
+      "Evitar cualquier distorsión en la forma del cuello o los hombros."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T22:05:10.335776+00:00",
+  "tags": [],
+  "notes": ""
+}

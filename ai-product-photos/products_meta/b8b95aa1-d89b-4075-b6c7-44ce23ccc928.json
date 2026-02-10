@@ -1,0 +1,67 @@
+{
+  "product_id": "b8b95aa1-d89b-4075-b6c7-44ce23ccc928",
+  "original_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\b8b95aa1-d89b-4075-b6c7-44ce23ccc928.jpg",
+  "created_at": "2026-02-09T23:09:02.681117+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": true,
+  "secondary_file": "products\\b8b95aa1-d89b-4075-b6c7-44ce23ccc928_2.jpg",
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Camiseta blanca con logo SLIDDY",
+    "category_guess": "apparel",
+    "product_description_long": "Una camiseta de manga corta de color blanco crema con cuello redondo, extendida sobre una superficie de madera. Presenta una inscripción centrada en el pecho con el texto 'SLIDDY' en un tono marrón rojizo. El tejido parece liso y suave, con costuras visibles alrededor del cuello y los bordes de las mangas.",
+    "key_visual_features": [
+      "Camiseta de manga corta",
+      "Cuello redondo",
+      "Inscripción 'SLIDDY' en el pecho",
+      "Color blanco crema",
+      "Tejido liso",
+      "Costuras visibles"
+    ],
+    "materials": [
+      "Algodón",
+      "Tejido"
+    ],
+    "colors": [
+      "Blanco crema",
+      "Marrón rojizo"
+    ],
+    "finish_texture": [
+      "Suave",
+      "Mate",
+      "Liso"
+    ],
+    "prompt_boosters": [
+      "Mantener el color blanco crema del tejido de la camiseta.",
+      "Reproducir el logo 'SLIDDY' con precisión en color marrón rojizo.",
+      "Respetar la forma plana y extendida de la camiseta.",
+      "Asegurar la textura suave y mate del material.",
+      "Mantener el detalle de las costuras en cuello y mangas.",
+      "Evitar cualquier deformación o arruga excesiva del producto."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T23:09:02.681117+00:00",
+  "tags": [],
+  "notes": ""
+}

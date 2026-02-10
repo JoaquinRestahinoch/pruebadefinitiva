@@ -1,0 +1,67 @@
+{
+  "product_id": "6f3c9ac2-3677-4fb8-aaa2-e190185ddc17",
+  "original_filename": "PHOTO-2026-02-10-18-02-52.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\6f3c9ac2-3677-4fb8-aaa2-e190185ddc17.jpg",
+  "created_at": "2026-02-10T22:11:40.268562+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": true,
+  "secondary_file": "products\\6f3c9ac2-3677-4fb8-aaa2-e190185ddc17_2.jpg",
+  "has_bgref": true,
+  "bgref_file": "products\\6f3c9ac2-3677-4fb8-aaa2-e190185ddc17_bg.jpg",
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Shorts deportivos rosa fucsia",
+    "category_guess": "apparel",
+    "product_description_long": "Un par de shorts casuales o deportivos de un vibrante color rosa fucsia. Cuentan con una cintura elástica fruncida y dos cordones ajustables de color blanco en la parte delantera. En la pierna izquierda, presentan una inscripción en color negro con un estilo caligráfico o gótico que dice 'Hype Style'.",
+    "key_visual_features": [
+      "Cintura elástica fruncida",
+      "Cordones blancos",
+      "Inscripción 'Hype Style' en la pierna izquierda",
+      "Corte recto y holgado"
+    ],
+    "materials": [
+      "Tejido de punto suave (aparente)"
+    ],
+    "colors": [
+      "Rosa fucsia",
+      "Negro (inscripción)",
+      "Blanco (cordones)"
+    ],
+    "finish_texture": [
+      "Textura ligeramente afelpada",
+      "Acabado mate"
+    ],
+    "prompt_boosters": [
+      "Shorts deportivos de color rosa brillante",
+      "Pantalones cortos casuales con logo",
+      "Prenda de ropa deportiva con cordones",
+      "Diseño moderno y vibrante",
+      "Detalle de inscripción en la pierna",
+      "Cintura elástica y ajustable",
+      "Estilo urbano y cómodo"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-10T22:11:40.268562+00:00",
+  "tags": [],
+  "notes": ""
+}

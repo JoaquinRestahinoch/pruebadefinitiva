@@ -1,0 +1,32 @@
+{
+  "product_id": "94a038aa-fc24-40e4-af35-f28432c9612e",
+  "original_filename": "f03f76ca-448d-496a-8448-bc14315ceb94.png",
+  "content_type": "image/png",
+  "stored_file": "products\\94a038aa-fc24-40e4-af35-f28432c9612e.png",
+  "created_at": "2026-02-06T19:05:22.578377+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "tags": [],
+  "notes": ""
+}

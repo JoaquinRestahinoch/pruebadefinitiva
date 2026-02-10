@@ -1,0 +1,65 @@
+{
+  "product_id": "d960ff82-4004-4741-a463-90c33c6b33d4",
+  "original_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\d960ff82-4004-4741-a463-90c33c6b33d4.jpg",
+  "created_at": "2026-02-09T22:26:26.190809+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Camiseta SLIDDY",
+    "category_guess": "apparel",
+    "product_description_long": "Esta es una camiseta de manga corta de color blanco hueso, con un cuello redondo clásico y un corte aparentemente holgado. En el centro del pecho, presenta la inscripción 'SLIDDY' en un distintivo tono marrón rojizo. La prenda está confeccionada en un tejido liso que parece ser de algodón, ofreciendo un acabado mate y una textura suave.",
+    "key_visual_features": [
+      "Camiseta de manga corta",
+      "Cuello redondo",
+      "Inscripción 'SLIDDY' en el pecho",
+      "Color blanco hueso"
+    ],
+    "materials": [
+      "Algodón"
+    ],
+    "colors": [
+      "Blanco hueso",
+      "Marrón rojizo"
+    ],
+    "finish_texture": [
+      "Mate",
+      "Tejido liso",
+      "Suave al tacto"
+    ],
+    "prompt_boosters": [
+      "Mantener el color blanco hueso de la camiseta",
+      "Preservar la inscripción 'SLIDDY' en marrón rojizo en el pecho",
+      "Asegurar el cuello redondo y las mangas cortas",
+      "Respetar la textura de tela lisa y suave",
+      "Evitar la adición de estampados o logos no presentes",
+      "Mantener el corte holgado y la caída natural de la prenda",
+      "Reproducir el acabado mate del tejido"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T22:26:26.190809+00:00",
+  "tags": [],
+  "notes": ""
+}

@@ -1,0 +1,40 @@
+{
+  "product_id": "4793a3ca-4889-44c1-9d72-bae0f5d61d37",
+  "original_filename": "IMG_7028.jpeg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\4793a3ca-4889-44c1-9d72-bae0f5d61d37.jpeg",
+  "created_at": "2026-02-05T06:40:43.806898+00:00",
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T06:41:00.966637+00:00",
+    "data": {
+      "category": "Wall Art",
+      "primary_color": "black",
+      "secondary_color": "white",
+      "material": "wood, glass, paper",
+      "finish": "mixed",
+      "brand_visible": true,
+      "brand_name": "Maran",
+      "recommended": {
+        "environment_type": "lifestyle",
+        "scene": "living_room",
+        "style": "ecommerce",
+        "lighting": "natural",
+        "chips": [
+          "modern",
+          "minimal",
+          "clean"
+        ]
+      },
+      "quality_issues": [
+        "product partially obscured by lamp",
+        "background clutter (desk items, mirror frame)",
+        "reflections on glass surface of artwork",
+        "artwork is not shot straight on and appears angled"
+      ],
+      "notes": "The artwork features a black and white depiction of tango dancers under a street lamp, framed in white. For e-commerce, it would benefit from a direct, unobstructed view with minimal reflections, preferably in a styled home environment."
+    }
+  }
+}

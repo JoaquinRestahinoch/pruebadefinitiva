@@ -1,0 +1,34 @@
+{
+  "product_id": "2d7960ab-042b-4d85-afdd-bce3ff5aa214",
+  "original_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\2d7960ab-042b-4d85-afdd-bce3ff5aa214.jpg",
+  "created_at": "2026-02-09T19:07:55.284448+00:00",
+  "product_type": "remera de moda",
+  "aesthetic": "minimalista",
+  "scenario_text": "playa al atardecer",
+  "has_secondary": true,
+  "secondary_file": "products\\2d7960ab-042b-4d85-afdd-bce3ff5aa214_2.jpg",
+  "prefill_custom_text": "Captura hiperrealista de una remera de moda con estética minimalista. La escena transcurre en una playa real al atardecer. La luz cálida y difusa del sol poniente ilumina la remera, que es el centro absoluto de la composición. El cielo presenta tonos suaves de naranja y rosa, reflejándose tenuemente en la arena húmeda, pero siempre en un segundo plano sutil.\n\nLa remera, confeccionada con un tejido de calidad, muestra su caída y textura naturales sobre una figura que mira hacia el mar, manteniendo la atención completamente en la prenda. Se aprecian las micro-arrugas y la forma en que la tela interactúa con la brisa marina y la luz dorada, destacando su calidad y diseño sin adornos ni logos. El fondo marino y el horizonte sirven como un lienzo suave y desenfocado que realza la silueta de la prenda.\n\nLa imagen debe ser indistinguible de una fotografía real, con grano fino natural y una profundidad de campo (DOF) que imita la lente de una cámara profesional. Asegúrate de incluir sombras de contacto realistas donde la prenda toca la piel o cualquier superficie, evitando por completo cualquier halo o aberración cromática. No se añade ningún elemento artificial ni texto. La autenticidad es clave.",
+  "recommended_config": {
+    "environment": {
+      "type": "outdoor",
+      "scene": "custom",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "instagram_ads",
+    "lighting": "natural",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "tags": [],
+  "notes": "",
+  "updated_at": "2026-02-09T19:08:17.457394+00:00"
+}

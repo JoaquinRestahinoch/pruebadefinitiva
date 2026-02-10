@@ -1,0 +1,40 @@
+{
+  "product_id": "5c62cac2-4631-4c59-bff0-15ddc63053de",
+  "original_filename": "IMG_7029.jpeg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\5c62cac2-4631-4c59-bff0-15ddc63053de.jpeg",
+  "created_at": "2026-02-05T06:41:59.097869+00:00",
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T06:42:08.199585+00:00",
+    "data": {
+      "category": "Cabinet",
+      "primary_color": "Brown",
+      "secondary_color": "Gold",
+      "material": "Wood",
+      "finish": "mixed",
+      "brand_visible": false,
+      "brand_name": "",
+      "recommended": {
+        "environment_type": "indoor_real",
+        "scene": "office",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "rustic",
+          "clean",
+          "premium"
+        ]
+      },
+      "quality_issues": [
+        "Poor lighting and shadows",
+        "Cluttered top surface and interior shelves",
+        "Distracting background elements (framed certificate, floor)",
+        "Off-center composition"
+      ],
+      "notes": "Roll-top cabinet with multiple internal drawers and shelves, featuring brass hardware. Made of wood with a distinctive slatted door design."
+    }
+  }
+}

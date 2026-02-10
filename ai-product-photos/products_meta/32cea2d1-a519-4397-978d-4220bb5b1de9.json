@@ -1,0 +1,60 @@
+{
+  "product_id": "32cea2d1-a519-4397-978d-4220bb5b1de9",
+  "original_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\32cea2d1-a519-4397-978d-4220bb5b1de9.jpg",
+  "created_at": "2026-02-06T14:44:14.238025+00:00",
+  "has_secondary": false,
+  "secondary_file": null,
+  "intent": {
+    "product_type": "",
+    "aesthetic": "minimalista",
+    "auto_config": {
+      "environment_type": "studio",
+      "scene": "white",
+      "style": "ecommerce",
+      "lighting": "studio_soft",
+      "chips": [
+        "minimal",
+        "clean",
+        "premium"
+      ],
+      "custom_text": "sombras suaves y realistas, textura de tela nítida y detallada, sin arrugas excesivas"
+    },
+    "status": "ok"
+  },
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-06T14:44:21.527451+00:00",
+    "data": {
+      "category": "Clothing",
+      "materials": [
+        "cotton",
+        "fabric"
+      ],
+      "finish": "matte",
+      "brand_visible": true,
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "white",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "minimal",
+          "clean",
+          "premium"
+        ],
+        "custom_text": "sombras suaves y realistas, textura de tela nítida y detallada, sin arrugas excesivas"
+      },
+      "risks": [
+        "fabric_texture",
+        "label_text",
+        "branding_critical",
+        "thin_edges"
+      ],
+      "notes": "Asegurar la consistencia del color de la camiseta y la legibilidad de la marca 'SLIDDY'. La prenda debe verse planchada y sin imperfecciones."
+    }
+  },
+  "tags": [],
+  "notes": ""
+}

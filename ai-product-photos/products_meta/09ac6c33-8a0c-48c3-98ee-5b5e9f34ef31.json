@@ -1,0 +1,66 @@
+{
+  "product_id": "09ac6c33-8a0c-48c3-98ee-5b5e9f34ef31",
+  "original_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\09ac6c33-8a0c-48c3-98ee-5b5e9f34ef31.jpg",
+  "created_at": "2026-02-09T20:47:16.915399+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": true,
+  "secondary_file": "products\\09ac6c33-8a0c-48c3-98ee-5b5e9f34ef31_2.jpg",
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Off-white short-sleeved t-shirt with 'SLIDDY' print",
+    "category_guess": "apparel",
+    "product_description_long": "A light cream, short-sleeved t-shirt with a round neck, laid flat on a wooden surface. It features the word 'SLIDDY' printed in a reddish-brown color centrally on the front, and the fabric appears soft with a slightly wrinkled texture.",
+    "key_visual_features": [
+      "Short-sleeved t-shirt",
+      "Round neck (crew neck)",
+      "Central front print 'SLIDDY'",
+      "Reddish-brown text on t-shirt",
+      "Soft, slightly wrinkled fabric texture",
+      "Laid flat presentation"
+    ],
+    "materials": [
+      "Fabric (likely cotton or cotton blend)"
+    ],
+    "colors": [
+      "Light cream / Off-white (t-shirt)",
+      "Reddish-brown (text)"
+    ],
+    "finish_texture": [
+      "Soft fabric finish",
+      "Slightly wrinkled texture",
+      "Matte print finish"
+    ],
+    "prompt_boosters": [
+      "Mantener el color crema claro del tejido.",
+      "Preservar el texto 'SLIDDY' en color marrón rojizo.",
+      "Respetar la textura ligeramente arrugada de la tela.",
+      "Mantener el estilo de cuello redondo.",
+      "Evitar deformaciones en la forma de la camiseta.",
+      "Asegurar que la camiseta esté bien centrada en la imagen."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T20:47:16.915399+00:00",
+  "tags": [],
+  "notes": ""
+}

@@ -1,0 +1,43 @@
+{
+  "product_id": "4939044e-9c1b-4013-8591-dc4b817c3919",
+  "created_at": "2026-02-05T15:45:39.496982+00:00",
+  "views": {
+    "front": {
+      "path": "products\\4939044e-9c1b-4013-8591-dc4b817c3919\\front.jpg",
+      "content_type": "image/jpeg"
+    },
+    "back": null
+  },
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T15:45:46.466082+00:00",
+    "data": {
+      "category": "clothing",
+      "primary_color": "off-white",
+      "secondary_color": "brown",
+      "material": "cotton",
+      "finish": "matte",
+      "brand_visible": true,
+      "brand_name": "SLIDDY",
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "white",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "minimal",
+          "clean"
+        ]
+      },
+      "quality_issues": [
+        "product is wrinkled",
+        "unprofessional background (wooden table)",
+        "distracting elements visible (phone, hand, fingerboard)",
+        "uneven lighting and shadows"
+      ],
+      "notes": "The t-shirt needs to be ironed or steamed to remove all wrinkles for a professional presentation. The photo should be taken on a clean, plain background such as white or light grey, with consistent, soft studio lighting to eliminate harsh shadows. All unrelated objects should be removed from the frame to focus entirely on the product."
+    }
+  }
+}

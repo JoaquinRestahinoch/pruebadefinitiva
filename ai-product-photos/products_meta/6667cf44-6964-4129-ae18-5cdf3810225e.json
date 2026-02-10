@@ -1,0 +1,67 @@
+{
+  "product_id": "6667cf44-6964-4129-ae18-5cdf3810225e",
+  "original_filename": "campera_sophie_-_jean_sampaio_-_cartera_merida_9__1.webp",
+  "content_type": "image/webp",
+  "stored_file": "products\\6667cf44-6964-4129-ae18-5cdf3810225e.webp",
+  "created_at": "2026-02-09T20:43:49.670481+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Red Shoulder Bag",
+    "category_guess": "apparel",
+    "product_description_long": "A small, rectangular shoulder bag in a vibrant red color, featuring a smooth, glossy finish. It is equipped with a matching red adjustable shoulder strap, detailed with a silver buckle, and secures with a silver top zipper. The front of the bag prominently displays the embossed inscription 'LAS PEPAS'.",
+    "key_visual_features": [
+      "small rectangular shape",
+      "vibrant red color",
+      "smooth glossy finish",
+      "adjustable red shoulder strap",
+      "silver buckle on strap",
+      "silver top zipper closure",
+      "embossed 'LAS PEPAS' inscription"
+    ],
+    "materials": [
+      "leather"
+    ],
+    "colors": [
+      "red",
+      "silver"
+    ],
+    "finish_texture": [
+      "smooth",
+      "glossy",
+      "leather-like"
+    ],
+    "prompt_boosters": [
+      "mantener la forma rectangular del bolso",
+      "preservar el acabado liso y brillante del material",
+      "respetar los detalles de la hebilla y cremallera plateadas",
+      "mostrar la inscripción 'LAS PEPAS' de forma clara y precisa",
+      "mantener el color rojo vibrante y uniforme del bolso",
+      "asegurar que la correa de hombro sea ajustable"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T20:43:49.670481+00:00",
+  "tags": [],
+  "notes": ""
+}

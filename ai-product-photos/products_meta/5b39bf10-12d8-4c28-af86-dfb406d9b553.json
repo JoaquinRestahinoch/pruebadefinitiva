@@ -1,0 +1,39 @@
+{
+  "product_id": "5b39bf10-12d8-4c28-af86-dfb406d9b553",
+  "original_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "C:\\Users\\Elda\\Desktop\\Startup\\ai-product-photos\\products\\5b39bf10-12d8-4c28-af86-dfb406d9b553.jpg",
+  "created_at": "2026-02-05T15:58:18.989785+00:00",
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T15:58:24.726856+00:00",
+    "data": {
+      "category": "t-shirt",
+      "primary_color": "cream",
+      "secondary_color": "light brown",
+      "material": "cotton",
+      "finish": "matte",
+      "brand_visible": true,
+      "brand_name": "SLIDDY",
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "plain background",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "minimal",
+          "clean"
+        ]
+      },
+      "quality_issues": [
+        "wrinkles on fabric",
+        "uneven lighting",
+        "not perfectly flattened",
+        "shadows from external objects"
+      ],
+      "notes": "The t-shirt is laid flat on a wooden surface in the original image, which is not ideal for e-commerce. It features a small embroidered or printed brand name on the chest."
+    }
+  }
+}

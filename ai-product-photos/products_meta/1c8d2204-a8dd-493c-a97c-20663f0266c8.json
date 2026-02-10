@@ -1,0 +1,72 @@
+{
+  "product_id": "1c8d2204-a8dd-493c-a97c-20663f0266c8",
+  "original_filename": "PHOTO-2026-02-04-23-08-46.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\1c8d2204-a8dd-493c-a97c-20663f0266c8.jpg",
+  "created_at": "2026-02-09T22:03:44.013068+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Camiseta con estampado de rosa y texto",
+    "category_guess": "apparel",
+    "product_description_long": "Una camiseta de manga corta en color crema o blanco roto, extendida sobre una superficie de madera. La parte trasera de la camiseta presenta un estampado prominente de una rosa estilizada con hojas, renderizada en tonos marrones, desde claros hasta oscuros para dar profundidad. Debajo del motivo floral, se lee la inscripción 'HISTORY REMEMBERS THOSE WHO DARED.' en un color rojizo-marrón, con una tipografía clara. La tela parece ser un tejido de punto ligero y suave, con las costuras del dobladillo y las mangas claramente visibles.",
+    "key_visual_features": [
+      "Camiseta de manga corta",
+      "Color crema/blanco roto",
+      "Estampado gráfico de una rosa estilizada",
+      "Hojas y tallo en el diseño de la rosa",
+      "Tonos marrones y detalles oscuros en el estampado de la rosa",
+      "Inscripción de texto en la espalda",
+      "Texto 'HISTORY REMEMBERS THOSE WHO DARED.'",
+      "Costuras visibles en el dobladillo y los puños de las mangas"
+    ],
+    "materials": [
+      "Tejido textil de punto"
+    ],
+    "colors": [
+      "Crema",
+      "Blanco roto",
+      "Marrón (claro, medio, oscuro)",
+      "Negro (detalles y sombreado en la rosa)",
+      "Rojizo-marrón (para el texto)"
+    ],
+    "finish_texture": [
+      "Acabado mate de la tela",
+      "Superficie lisa del tejido",
+      "Apariencia de tela de punto suave"
+    ],
+    "prompt_boosters": [
+      "Mantener el color base crema/blanco roto de la camiseta.",
+      "Replicar con precisión el diseño y los colores de la rosa estilizada.",
+      "Preservar el texto exacto y la tipografía de la inscripción en la espalda.",
+      "Mantener la textura visual de un tejido de punto ligero y suave.",
+      "Respetar las costuras visibles en los bordes y mangas.",
+      "Asegurar que el estampado esté centrado en la parte superior-media de la espalda.",
+      "Evitar añadir arrugas excesivas o deformaciones a la prenda."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T22:03:44.013068+00:00",
+  "tags": [],
+  "notes": ""
+}

@@ -1,0 +1,69 @@
+{
+  "product_id": "46bc30d8-cd0a-43bf-92e5-656ac41156c9",
+  "original_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\46bc30d8-cd0a-43bf-92e5-656ac41156c9.jpg",
+  "created_at": "2026-02-09T21:55:02.013197+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Camiseta beige con inscripción SLIDDY",
+    "category_guess": "apparel",
+    "product_description_long": "Se trata de una camiseta de manga corta en un tono beige claro o blanco roto, con un cuello redondo. Presenta la inscripción \"SLIDDY\" en letras mayúsculas de color marrón rojizo, centrada en la parte delantera del pecho. La tela tiene una apariencia suave y mate, ligeramente arrugada por estar apoyada sobre una superficie plana de madera.",
+    "key_visual_features": [
+      "camiseta de manga corta",
+      "cuello redondo",
+      "inscripción 'SLIDDY' en el pecho",
+      "color liso",
+      "costuras visibles en los bordes"
+    ],
+    "materials": [
+      "algodón",
+      "tela"
+    ],
+    "colors": [
+      "beige claro",
+      "blanco roto",
+      "marrón rojizo"
+    ],
+    "finish_texture": [
+      "tela suave",
+      "acabado mate",
+      "ligeramente arrugado"
+    ],
+    "prompt_boosters": [
+      "mantener el color exacto de la camiseta",
+      "preservar el estilo de cuello redondo",
+      "asegurar el texto 'SLIDDY' centrado y fiel",
+      "mantener el diseño de manga corta",
+      "respetar la textura de tela suave",
+      "evitar añadir patrones o gráficos adicionales",
+      "no deformar la forma de la camiseta",
+      "mantener las costuras visibles"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T21:55:02.013197+00:00",
+  "tags": [],
+  "notes": ""
+}

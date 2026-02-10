@@ -1,0 +1,68 @@
+{
+  "product_id": "8be30fe8-015c-4de5-950f-2c06248d6e4e",
+  "original_filename": "PHOTO-2026-02-10-18-02-52.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\8be30fe8-015c-4de5-950f-2c06248d6e4e.jpg",
+  "created_at": "2026-02-10T22:11:28.278272+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Shorts rosados con estampado",
+    "category_guess": "apparel",
+    "product_description_long": "Unos shorts de tela rosa vibrante con una cintura elástica fruncida y cordones blancos ajustables en la parte delantera. Presentan un gráfico grande y estilizado en color negro con la inscripción \"Hype Style\" a lo largo de la pierna izquierda. Estos shorts de corte relajado tienen un aspecto casual y cómodo.",
+    "key_visual_features": [
+      "Shorts color rosa intenso",
+      "Cintura elástica fruncida",
+      "Cordones blancos ajustables en la parte delantera",
+      "Estampado \"Hype Style\" en negro en la pierna izquierda",
+      "Corte holgado y relajado"
+    ],
+    "materials": [
+      "Textile fabric"
+    ],
+    "colors": [
+      "Pink",
+      "Black",
+      "White"
+    ],
+    "finish_texture": [
+      "Soft fabric texture",
+      "Matte finish"
+    ],
+    "prompt_boosters": [
+      "Shorts de estilo athleisure",
+      "Color fucsia llamativo",
+      "Estampado gráfico audaz",
+      "Prenda cómoda para el día a día",
+      "Estilo streetwear moderno",
+      "Ideal para verano o deporte",
+      "Tejido suave y texturizado"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-10T22:11:28.278272+00:00",
+  "tags": [],
+  "notes": ""
+}

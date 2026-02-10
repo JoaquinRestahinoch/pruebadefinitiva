@@ -1,0 +1,41 @@
+{
+  "product_id": "7115ac8c-1a44-4fb1-a7d0-7c08598f997a",
+  "original_filename": "Sillon-Grecia-portada-blog.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\7115ac8c-1a44-4fb1-a7d0-7c08598f997a.jpg",
+  "created_at": "2026-02-05T06:24:31.120886+00:00",
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T06:24:37.605921+00:00",
+    "data": {
+      "category": "sofa",
+      "primary_color": "beige",
+      "secondary_color": "",
+      "material": "fabric",
+      "finish": "matte",
+      "brand_visible": false,
+      "brand_name": "",
+      "recommended": {
+        "environment_type": "indoor_real",
+        "scene": "living_room",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "modern",
+          "clean",
+          "minimal"
+        ]
+      },
+      "quality_issues": [
+        "Distracting background elements (other furniture, busy setting)",
+        "Inconsistent lighting/color temperature (warm yellow cast)",
+        "Shadows on the floor creating uneven lighting",
+        "Product is not centered, and parts are cut off (bottom left corner)",
+        "The environment looks like a showroom, not a natural home setting for lifestyle shots"
+      ],
+      "notes": "The sofa is a modern two-seater with button-tufted back cushions and clean lines. The fabric has a subtle texture. For e-commerce, it would benefit from a clean studio background or a well-styled living room scene with balanced, soft lighting to accurately represent its color and style."
+    }
+  }
+}

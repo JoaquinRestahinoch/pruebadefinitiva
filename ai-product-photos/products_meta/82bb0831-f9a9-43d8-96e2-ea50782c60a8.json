@@ -1,0 +1,32 @@
+{
+  "product_id": "82bb0831-f9a9-43d8-96e2-ea50782c60a8",
+  "original_filename": "campera_sophie_-_jean_sampaio_-_cartera_merida_9__1.webp",
+  "content_type": "image/webp",
+  "stored_file": "products\\82bb0831-f9a9-43d8-96e2-ea50782c60a8.webp",
+  "created_at": "2026-02-06T18:42:41.474856+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "tags": [],
+  "notes": ""
+}

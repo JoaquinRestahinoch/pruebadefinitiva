@@ -1,0 +1,66 @@
+{
+  "product_id": "e142bf76-94fc-4232-bd57-7157524af80a",
+  "original_filename": "campera_sophie_-_jean_sampaio_-_cartera_merida_9__1.webp",
+  "content_type": "image/webp",
+  "stored_file": "products\\e142bf76-94fc-4232-bd57-7157524af80a.webp",
+  "created_at": "2026-02-09T20:29:33.224313+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Bolso de hombro rojo estilo baguette",
+    "category_guess": "apparel",
+    "product_description_long": "Un bolso de hombro pequeño de color rojo brillante con una forma alargada de estilo baguette. Presenta una única asa delgada del mismo color con un ajuste de hebilla plateada y un cierre de cremallera superior plateado. El material tiene un acabado liso y ligeramente brillante, y se observa una sutil inscripción en relieve en la parte frontal del bolso.",
+    "key_visual_features": [
+      "Color rojo brillante",
+      "Forma de baguette/rectangular alargada",
+      "Asa de hombro delgada y ajustable",
+      "Cierre de cremallera superior plateada",
+      "Hebilla plateada en el asa",
+      "Inscripción o logo sutil en relieve en el frente"
+    ],
+    "materials": [
+      "Cuero sintético o cuero",
+      "Metal"
+    ],
+    "colors": [
+      "Rojo",
+      "Plateado"
+    ],
+    "finish_texture": [
+      "Liso",
+      "Ligeramente brillante"
+    ],
+    "prompt_boosters": [
+      "Mantener el color rojo brillante y saturado del bolso.",
+      "Conservar la forma de baguette alargada y compacta.",
+      "Respetar la textura lisa y el acabado ligeramente brillante del material.",
+      "Asegurar la presencia del asa delgada con hebilla plateada.",
+      "Incluir el cierre de cremallera superior plateado.",
+      "Preservar la sutil inscripción en relieve en la parte frontal."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T20:29:33.224313+00:00",
+  "tags": [],
+  "notes": ""
+}

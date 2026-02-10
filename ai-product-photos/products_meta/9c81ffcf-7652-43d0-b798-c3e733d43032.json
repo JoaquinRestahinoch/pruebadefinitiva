@@ -1,0 +1,69 @@
+{
+  "product_id": "9c81ffcf-7652-43d0-b798-c3e733d43032",
+  "original_filename": "f03f76ca-448d-496a-8448-bc14315ceb94.png",
+  "content_type": "image/png",
+  "stored_file": "products\\9c81ffcf-7652-43d0-b798-c3e733d43032.png",
+  "created_at": "2026-02-09T22:04:47.296169+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Baby Striped T-shirt with Gold Messi 10 Print",
+    "category_guess": "apparel",
+    "product_description_long": "A baby short-sleeved t-shirt featuring a classic design of alternating vertical light blue and white stripes. It has a round neckline with a thin brown trim and two snap buttons on the left shoulder for easy dressing. The front proudly displays a gold stylized 'M' logo, the word 'MESSI', and the number '10' in a prominent gold print.",
+    "key_visual_features": [
+      "short-sleeved t-shirt",
+      "round neck",
+      "snap buttons on shoulder",
+      "vertical light blue and white stripes",
+      "gold printed logo (stylized M)",
+      "gold printed 'MESSI' text",
+      "gold printed number '10'"
+    ],
+    "materials": [
+      "fabric"
+    ],
+    "colors": [
+      "light blue",
+      "white",
+      "gold",
+      "brown"
+    ],
+    "finish_texture": [
+      "soft fabric texture",
+      "matte print"
+    ],
+    "prompt_boosters": [
+      "Maintain vertical stripe pattern precisely.",
+      "Ensure gold print details (logo, 'MESSI', '10') are accurate in color and placement.",
+      "Preserve round neck shape and thin brown trim.",
+      "Show two snap buttons on the shoulder clearly.",
+      "Render fabric texture as soft and smooth.",
+      "Keep short sleeve style.",
+      "Avoid distortion of garment shape."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T22:04:47.296169+00:00",
+  "tags": [],
+  "notes": ""
+}

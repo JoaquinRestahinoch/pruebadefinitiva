@@ -1,0 +1,39 @@
+{
+  "product_id": "be07f7f3-5909-4c65-91c2-7a902c0d363d",
+  "original_filename": "Sillon-Grecia-portada-blog.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\be07f7f3-5909-4c65-91c2-7a902c0d363d.jpg",
+  "created_at": "2026-02-05T06:23:28.257549+00:00",
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T06:23:35.695649+00:00",
+    "data": {
+      "category": "Sofa",
+      "primary_color": "Light grey",
+      "secondary_color": "",
+      "material": "Fabric",
+      "finish": "matte",
+      "brand_visible": false,
+      "brand_name": "",
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "white",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "modern",
+          "clean",
+          "minimal"
+        ]
+      },
+      "quality_issues": [
+        "Distracting background",
+        "Uneven lighting",
+        "Suboptimal angle/perspective"
+      ],
+      "notes": "The sofa features a modern design with tufted back cushions and straight arms, upholstered in a textured light grey fabric."
+    }
+  }
+}

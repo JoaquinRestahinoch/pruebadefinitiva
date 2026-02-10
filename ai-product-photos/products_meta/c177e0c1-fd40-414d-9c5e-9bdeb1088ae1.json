@@ -1,0 +1,68 @@
+{
+  "product_id": "c177e0c1-fd40-414d-9c5e-9bdeb1088ae1",
+  "original_filename": "IMG_6826.jpeg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\c177e0c1-fd40-414d-9c5e-9bdeb1088ae1.jpeg",
+  "created_at": "2026-02-09T23:08:07.639497+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Collar con dije de rosa",
+    "category_guess": "jewelry",
+    "product_description_long": "Un collar de cadena con eslabones ovalados de color plateado, con un dije detallado en forma de rosa. El dije representa una rosa completamente abierta con pétalos esculpidos y un tallo con dos hojas simétricas en la base, todo en un acabado metálico. El collar se exhibe sobre un busto de exhibición de joyería de color negro con una textura granulada.",
+    "key_visual_features": [
+      "collar de cadena de eslabones ovalados",
+      "dije de rosa detallado",
+      "color plateado",
+      "busto de exhibición negro",
+      "acabado metálico brillante"
+    ],
+    "materials": [
+      "metal",
+      "material sintético (soporte)"
+    ],
+    "colors": [
+      "plateado",
+      "negro",
+      "gris claro"
+    ],
+    "finish_texture": [
+      "pulido brillante",
+      "esculpido",
+      "textura granulada (soporte)"
+    ],
+    "prompt_boosters": [
+      "Mantener la forma precisa del dije de rosa.",
+      "Respetar el diseño de la cadena de eslabones ovalados.",
+      "Conservar el acabado metálico y brillante del collar y el dije.",
+      "Evitar alteraciones en los detalles esculpidos de la rosa y sus hojas.",
+      "Preservar la textura granulada del busto de exhibición negro.",
+      "Mantener la proporción correcta del dije en relación con la cadena.",
+      "Asegurar la visibilidad del gancho que une el dije a la cadena."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T23:08:07.639497+00:00",
+  "tags": [],
+  "notes": ""
+}

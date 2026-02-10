@@ -1,0 +1,67 @@
+{
+  "product_id": "33a9ad29-eab7-45df-82b2-89e2badb2a27",
+  "original_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\33a9ad29-eab7-45df-82b2-89e2badb2a27.jpg",
+  "created_at": "2026-02-09T21:55:10.808448+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": true,
+  "secondary_file": "products\\33a9ad29-eab7-45df-82b2-89e2badb2a27_2.jpg",
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Camiseta de manga corta SLIDDY",
+    "category_guess": "apparel",
+    "product_description_long": "Una camiseta de manga corta de color crema o blanco hueso, con un cuello redondo sencillo. La parte frontal de la camiseta lleva la inscripción 'SLIDDY' en un tono rojizo-marrón, ubicada centralmente debajo del cuello. La tela es lisa con una textura mate, y presenta arrugas suaves debido a estar doblada o plegada.",
+    "key_visual_features": [
+      "Camiseta de manga corta",
+      "Cuello redondo",
+      "Color crema o blanco hueso",
+      "Inscripción 'SLIDDY' en el pecho",
+      "Inscripción en color rojizo-marrón"
+    ],
+    "materials": [
+      "tela"
+    ],
+    "colors": [
+      "crema",
+      "blanco hueso",
+      "rojizo-marrón (inscripción)"
+    ],
+    "finish_texture": [
+      "mate",
+      "liso",
+      "suave (aparente)",
+      "ligeramente arrugado"
+    ],
+    "prompt_boosters": [
+      "Mantener el color crema o blanco hueso de la camiseta.",
+      "Preservar la forma estándar de una camiseta de manga corta con cuello redondo.",
+      "Asegurar que la inscripción 'SLIDDY' sea claramente visible y centrada.",
+      "Respetar el color rojizo-marrón de la inscripción.",
+      "Mantener la textura de tela mate y suave.",
+      "Incluir las arrugas sutiles que la prenda presenta al estar doblada."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T21:55:10.807077+00:00",
+  "tags": [],
+  "notes": ""
+}

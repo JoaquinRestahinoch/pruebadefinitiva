@@ -1,0 +1,67 @@
+{
+  "product_id": "70a93475-a2bd-4ca4-aabe-be4eb4be0329",
+  "original_filename": "PHOTO-2026-02-10-18-02-52.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\70a93475-a2bd-4ca4-aabe-be4eb4be0329.jpg",
+  "created_at": "2026-02-10T22:11:30.701386+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": true,
+  "secondary_file": "products\\70a93475-a2bd-4ca4-aabe-be4eb4be0329_2.jpg",
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Shorts rosados con estampado",
+    "category_guess": "apparel",
+    "product_description_long": "Un par de shorts vibrantes de color rosa fuerte, caracterizados por una cintura elástica con cordones ajustables blancos. La pierna izquierda presenta una inscripción gráfica estilizada en color negro. Los shorts tienen un corte relajado y una apariencia de tela suave y texturizada.",
+    "key_visual_features": [
+      "Color rosa fuerte (hot pink)",
+      "Cintura elástica",
+      "Cordones ajustables blancos",
+      "Estampado gráfico negro en la pierna izquierda",
+      "Corte relajado"
+    ],
+    "materials": [
+      "Tela"
+    ],
+    "colors": [
+      "Rosa fuerte",
+      "Blanco",
+      "Negro"
+    ],
+    "finish_texture": [
+      "Textura suave",
+      "Acabado mate"
+    ],
+    "prompt_boosters": [
+      "Aislar producto sobre fondo blanco.",
+      "Iluminación de estudio.",
+      "Enfatizar la saturación del color.",
+      "Resaltar la textura de la tela.",
+      "Detallar el estampado gráfico.",
+      "Mostrar claramente los cordones."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-10T22:11:30.701386+00:00",
+  "tags": [],
+  "notes": ""
+}

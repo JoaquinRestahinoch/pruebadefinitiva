@@ -1,0 +1,35 @@
+{
+  "product_id": "606eeddf-bb8b-4ac9-bff0-0cb48c9d3239",
+  "original_filename": "campera_sophie_-_jean_sampaio_-_cartera_merida_9__1.webp",
+  "content_type": "image/webp",
+  "stored_file": "products\\606eeddf-bb8b-4ac9-bff0-0cb48c9d3239.webp",
+  "created_at": "2026-02-05T06:34:51.737461+00:00",
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T06:34:58.873596+00:00",
+    "data": {
+      "category": "handbag",
+      "primary_color": "red",
+      "secondary_color": "silver",
+      "material": "leather",
+      "finish": "glossy",
+      "brand_visible": true,
+      "brand_name": "LAS PePAS",
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "white",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "clean",
+          "modern",
+          "premium"
+        ]
+      },
+      "quality_issues": [],
+      "notes": "The product is a red leather handbag with a glossy finish. The brand name 'LAS PePAS' is embossed on the front. The bag features silver-toned hardware on the strap. It is shown being held by a person wearing a matching red leather jacket and dark denim jeans."
+    }
+  }
+}

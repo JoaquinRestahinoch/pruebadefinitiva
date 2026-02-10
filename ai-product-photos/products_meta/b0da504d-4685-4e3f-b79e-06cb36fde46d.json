@@ -1,0 +1,34 @@
+{
+  "product_id": "b0da504d-4685-4e3f-b79e-06cb36fde46d",
+  "original_filename": "gorra1.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\b0da504d-4685-4e3f-b79e-06cb36fde46d.jpg",
+  "created_at": "2026-02-09T19:11:21.892728+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "scenario_text": "playa",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "Una botella de vidrio esmerilado sin etiquetas descansa delicadamente sobre arena fina y clara en la orilla de una playa serena. El océano se extiende en el fondo, con olas suaves difuminadas en un bokeh natural, manteniendo la composición minimalista y enfocada enteramente en el producto.\n\nLa iluminación proviene de una suave luz solar matutina, creando sombras de contacto sutiles y realistas donde la botella toca la arena. En la superficie esmerilada del vidrio, se aprecian reflejos difusos del cielo y el horizonte. El nivel del líquido es visible en el interior de la botella, mostrando un ligero menisco, y la tapa encaja perfectamente, revelando una textura fina y pulcra.\n\nLa imagen debe incorporar un grano fino natural y una profundidad de campo real que genere un bokeh exquisito. Las sombras de contacto serán precisas y sin halos, sin añadir texto, logos ni etiquetas inventados.",
+  "recommended_config": {
+    "environment": {
+      "type": "outdoor",
+      "scene": "custom",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "natural",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "tags": [],
+  "notes": "",
+  "updated_at": "2026-02-09T19:11:34.691957+00:00"
+}

@@ -1,0 +1,70 @@
+{
+  "product_id": "ead2d722-a66a-4a9a-b460-bd70bd49bcfb",
+  "original_filename": "f03f76ca-448d-496a-8448-bc14315ceb94.png",
+  "content_type": "image/png",
+  "stored_file": "products\\ead2d722-a66a-4a9a-b460-bd70bd49bcfb.png",
+  "created_at": "2026-02-09T22:32:34.919187+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Camiseta de bebé Messi a rayas",
+    "category_guess": "apparel",
+    "product_description_long": "Una camiseta de bebé de manga corta con un diseño de rayas verticales blancas y azul claro. Presenta un cuello redondo blanco con un fino ribete marrón y dos botones a presión azules en el hombro izquierdo. En la parte delantera, se aprecia un logo dorado estilizado con la palabra \"MESSI\" debajo y un gran número \"10\" dorado en el centro.",
+    "key_visual_features": [
+      "Camiseta de manga corta",
+      "Rayas verticales blancas y azul claro",
+      "Logo dorado estilizado con \"MESSI\"",
+      "Número \"10\" dorado",
+      "Cuello redondo blanco con ribete marrón",
+      "Dos botones a presión azules en el hombro izquierdo"
+    ],
+    "materials": [
+      "Textile fabric"
+    ],
+    "colors": [
+      "Light blue",
+      "White",
+      "Gold",
+      "Brown",
+      "Blue"
+    ],
+    "finish_texture": [
+      "Smooth fabric",
+      "Soft texture",
+      "Matte print finish"
+    ],
+    "prompt_boosters": [
+      "Respetar patrón de rayas verticales azules claras y blancas.",
+      "Mantener el logo dorado estilizado con el texto 'MESSI' y el número '10'.",
+      "Preservar el cuello redondo blanco con el ribete marrón.",
+      "Incluir los dos botones a presión azules en el hombro izquierdo.",
+      "Asegurar el diseño de manga corta.",
+      "Evitar cualquier deformación de la prenda.",
+      "Mantener la textura suave y lisa de la tela."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T22:32:34.919187+00:00",
+  "tags": [],
+  "notes": ""
+}

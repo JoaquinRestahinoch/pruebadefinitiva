@@ -1,0 +1,68 @@
+{
+  "product_id": "94636755-dc87-4be4-8f32-0c6dd1e4e919",
+  "original_filename": "taza.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\94636755-dc87-4be4-8f32-0c6dd1e4e919.jpg",
+  "created_at": "2026-02-09T22:32:45.734123+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Taza de cerámica estampada",
+    "category_guess": "other",
+    "product_description_long": "Una taza de cerámica cilíndrica de color blanco puro con un asa lateral. Presenta un logo impreso prominentemente en la parte frontal, con un diseño circular que contiene una imagen de baloncesto en tonos naranja y amarillo con líneas negras. El logo incluye inscripciones en español, con la palabra 'Porteño' en una fuente caligráfica grande en el centro, y 'Estudiantil' y 'Basquet' bordeando la parte superior e inferior del círculo, respectivamente. Sobre el diseño circular, hay un patrón geométrico de bloques en azul oscuro y rojo.",
+    "key_visual_features": [
+      "Taza de cerámica blanca",
+      "Asa curva en el lateral",
+      "Logo impreso con diseño de baloncesto",
+      "Texto 'Estudiantil Porteño Basquet'",
+      "Patrón de bloques rectangulares en azul y rojo sobre el logo"
+    ],
+    "materials": [
+      "Cerámica"
+    ],
+    "colors": [
+      "Blanco",
+      "Azul oscuro",
+      "Rojo",
+      "Naranja",
+      "Amarillo",
+      "Negro"
+    ],
+    "finish_texture": [
+      "Liso",
+      "Brillante"
+    ],
+    "prompt_boosters": [
+      "Mantener la forma cilíndrica de la taza.",
+      "Preservar el diseño y la ubicación del asa.",
+      "Reproducir el logo impreso con precisión, incluyendo el baloncesto y el texto.",
+      "Asegurar la legibilidad de las palabras 'Estudiantil Porteño Basquet'.",
+      "Respetar la paleta de colores del logo (azul oscuro, rojo, naranja, amarillo, negro).",
+      "Mantener el acabado brillante de la cerámica."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T22:32:45.734123+00:00",
+  "tags": [],
+  "notes": ""
+}

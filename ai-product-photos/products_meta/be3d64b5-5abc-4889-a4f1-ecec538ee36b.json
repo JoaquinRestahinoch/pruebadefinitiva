@@ -1,0 +1,35 @@
+{
+  "product_id": "be3d64b5-5abc-4889-a4f1-ecec538ee36b",
+  "original_filename": "ba451a93-05dd-49e8-8f96-828a77761a3f.png",
+  "content_type": "image/png",
+  "stored_file": "products\\be3d64b5-5abc-4889-a4f1-ecec538ee36b.png",
+  "created_at": "2026-02-05T15:25:49.743213+00:00",
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T15:25:59.758286+00:00",
+    "data": {
+      "category": "t-shirt",
+      "primary_color": "cream",
+      "secondary_color": "brown",
+      "material": "cotton",
+      "finish": "matte",
+      "brand_visible": false,
+      "brand_name": "",
+      "recommended": {
+        "environment_type": "lifestyle",
+        "scene": "street",
+        "style": "lifestyle",
+        "lighting": "natural",
+        "chips": [
+          "modern",
+          "clean",
+          "premium"
+        ]
+      },
+      "quality_issues": [],
+      "notes": "Men's oversized cream t-shirt with a large brown rose graphic and the phrase 'HISTORY REMEMBERS THOSE WHO DARED.' printed on the back."
+    }
+  }
+}

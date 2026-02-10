@@ -1,0 +1,38 @@
+{
+  "product_id": "74033b9c-c9b7-40db-b241-c7231159f4ed",
+  "original_filename": "img_8414-1ede3eab3d96ef2f3617595488677752-480-0.webp",
+  "content_type": "image/webp",
+  "stored_file": "products\\74033b9c-c9b7-40db-b241-c7231159f4ed.webp",
+  "created_at": "2026-02-05T16:31:01.079357+00:00",
+  "tags": [],
+  "notes": "",
+  "intent": {
+    "goal": "basketball jersey launch"
+  },
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T16:31:09.718450+00:00",
+    "data": {
+      "category": "basketball jersey",
+      "primary_color": "red",
+      "secondary_color": "white",
+      "material": "polyester",
+      "finish": "matte",
+      "brand_visible": true,
+      "brand_name": "Nike",
+      "recommended": {
+        "environment_type": "lifestyle",
+        "scene": "gym",
+        "style": "advertising",
+        "lighting": "premium",
+        "chips": [
+          "modern",
+          "premium",
+          "clean"
+        ]
+      },
+      "quality_issues": [],
+      "notes": "The jersey features 'FEVER' text and the number '22' in white, with a small tag indicating 'WNA FEVER BBEL EDITION'."
+    }
+  }
+}

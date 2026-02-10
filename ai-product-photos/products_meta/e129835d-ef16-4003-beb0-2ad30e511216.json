@@ -1,0 +1,37 @@
+{
+  "product_id": "e129835d-ef16-4003-beb0-2ad30e511216",
+  "original_filename": "PHOTO-2026-02-04-23-08-46 (1).jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\e129835d-ef16-4003-beb0-2ad30e511216.jpg",
+  "created_at": "2026-02-05T17:18:52.096017+00:00",
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T17:18:58.668358+00:00",
+    "data": {
+      "category": "t-shirt",
+      "primary_color": "off-white",
+      "secondary_color": "reddish-brown",
+      "material": "cotton",
+      "finish": "matte",
+      "brand_visible": true,
+      "brand_name": "SLIDDY",
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "white",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "clean",
+          "minimal"
+        ]
+      },
+      "quality_issues": [
+        "wrinkles",
+        "minor pilling/fuzziness"
+      ],
+      "notes": "The product is an off-white short-sleeve t-shirt with the brand name \"SLIDDY\" printed in reddish-brown on the chest. The t-shirt appears to be made of cotton material. For e-commerce, it would benefit from being ironed to remove wrinkles for a cleaner presentation."
+    }
+  }
+}

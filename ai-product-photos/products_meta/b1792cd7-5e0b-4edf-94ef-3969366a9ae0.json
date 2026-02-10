@@ -1,0 +1,70 @@
+{
+  "product_id": "b1792cd7-5e0b-4edf-94ef-3969366a9ae0",
+  "original_filename": "img_8414-1ede3eab3d96ef2f3617595488677752-480-0.webp",
+  "content_type": "image/webp",
+  "stored_file": "products\\b1792cd7-5e0b-4edf-94ef-3969366a9ae0.webp",
+  "created_at": "2026-02-09T22:32:19.072621+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Camiseta de baloncesto roja",
+    "category_guess": "apparel",
+    "product_description_long": "Una camiseta de baloncesto roja brillante con un diseño clásico. Presenta el texto 'FEVER' y el número '22' impresos en blanco en la parte frontal central. La camiseta tiene un cuello en V y ribetes en los hombros con franjas blancas y anaranjadas, y el logo de Nike en blanco está visible en la parte superior del pecho.",
+    "key_visual_features": [
+      "Camiseta de baloncesto roja",
+      "Texto 'FEVER' en blanco",
+      "Número '22' en blanco",
+      "Logo de Nike en blanco",
+      "Cuello en V con ribetes anaranjados y blancos",
+      "Ribetes en los hombros anaranjados y blancos",
+      "Etiqueta visible en la parte inferior derecha con 'WNBA FEVER REBEL EDITION'"
+    ],
+    "materials": [
+      "tela de jersey",
+      "material sintético"
+    ],
+    "colors": [
+      "rojo",
+      "blanco",
+      "anaranjado"
+    ],
+    "finish_texture": [
+      "tejido liso",
+      "tejido con perforaciones sutiles",
+      "acabado mate en las letras y números"
+    ],
+    "prompt_boosters": [
+      "mantener el color rojo vibrante de la camiseta",
+      "asegurar la legibilidad de 'FEVER' y '22'",
+      "preservar el logo de Nike y su posición",
+      "respetar los detalles del cuello en V y los ribetes",
+      "evitar cualquier deformación de la prenda",
+      "mantener la textura del tejido de la camiseta",
+      "respetar la forma y el estilo de la camiseta de baloncesto"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-09T22:32:19.072621+00:00",
+  "tags": [],
+  "notes": ""
+}

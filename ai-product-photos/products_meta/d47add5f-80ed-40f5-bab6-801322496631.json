@@ -1,0 +1,22 @@
+{
+  "product_id": "d47add5f-80ed-40f5-bab6-801322496631",
+  "original_filename": "PHOTO-2026-02-04-23-08-46.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\d47add5f-80ed-40f5-bab6-801322496631.jpg",
+  "created_at": "2026-02-05T05:14:07.264058+00:00",
+  "tags": [
+    "premium",
+    "minimal"
+  ],
+  "notes": "foto para ecommerce",
+  "title": "string",
+  "brand": "string",
+  "category": "clothing",
+  "primary_color": "white",
+  "materials": [
+    "string"
+  ],
+  "use_cases": [
+    "string"
+  ]
+}

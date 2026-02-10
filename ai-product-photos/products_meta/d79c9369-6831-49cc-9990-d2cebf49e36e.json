@@ -1,0 +1,69 @@
+{
+  "product_id": "d79c9369-6831-49cc-9990-d2cebf49e36e",
+  "original_filename": "BLACK.png",
+  "content_type": "image/png",
+  "stored_file": "products\\d79c9369-6831-49cc-9990-d2cebf49e36e.png",
+  "created_at": "2026-02-10T22:23:59.377636+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Black Ribbed Crop Top",
+    "category_guess": "apparel",
+    "product_description_long": "A black ribbed knit crop top featuring a classic scoop neck and sleeveless design. The front displays a prominent red, seemingly distressed or split, heart graphic, overlaid with elegant white script text. Along the lower left side seam, the brand name \"STYLE&CULTURE\" is printed vertically in white.",
+    "key_visual_features": [
+      "Black ribbed knit fabric",
+      "Scoop neck",
+      "Sleeveless",
+      "Cropped style",
+      "Red distressed heart graphic",
+      "White script text",
+      "Vertical \"STYLE&CULTURE\" text"
+    ],
+    "materials": [
+      "Ribbed knit fabric"
+    ],
+    "colors": [
+      "Black",
+      "Red",
+      "White"
+    ],
+    "finish_texture": [
+      "Ribbed",
+      "Knit texture",
+      "Matte",
+      "Distressed graphic"
+    ],
+    "prompt_boosters": [
+      "Maintain ribbed knit texture throughout the garment.",
+      "Ensure the red distressed heart graphic is centered on the chest.",
+      "Accurately render the white script text over the heart graphic.",
+      "Preserve the vertical white \"STYLE&CULTURE\" text on the left side seam.",
+      "Keep the scoop neck and sleeveless design consistent.",
+      "Avoid altering the cropped length of the top."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-10T22:23:59.375221+00:00",
+  "tags": [],
+  "notes": ""
+}

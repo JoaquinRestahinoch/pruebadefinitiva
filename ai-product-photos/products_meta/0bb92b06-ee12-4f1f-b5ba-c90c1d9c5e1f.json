@@ -1,0 +1,39 @@
+{
+  "product_id": "0bb92b06-ee12-4f1f-b5ba-c90c1d9c5e1f",
+  "original_filename": "IMG_6826.jpeg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\0bb92b06-ee12-4f1f-b5ba-c90c1d9c5e1f.jpeg",
+  "created_at": "2026-02-05T06:18:19.615878+00:00",
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T06:18:27.237381+00:00",
+    "data": {
+      "category": "necklace",
+      "primary_color": "silver",
+      "secondary_color": "",
+      "material": "metal",
+      "finish": "glossy",
+      "brand_visible": false,
+      "brand_name": "",
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "white",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "clean",
+          "minimal",
+          "premium"
+        ]
+      },
+      "quality_issues": [
+        "Dust and scratches on the display stand",
+        "Inconsistent background (wall texture and brightness)",
+        "Distracting elements in the bottom corners (likely reflections or other objects)"
+      ],
+      "notes": "The product is a silver-colored necklace with a rose pendant. For e-commerce, it would benefit from a cleaner display stand and a more uniform, neutral background to highlight the jewelry without distractions."
+    }
+  }
+}

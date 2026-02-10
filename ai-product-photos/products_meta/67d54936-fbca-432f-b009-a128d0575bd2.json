@@ -1,0 +1,37 @@
+{
+  "product_id": "67d54936-fbca-432f-b009-a128d0575bd2",
+  "original_filename": "PHOTO-2026-02-04-23-08-46.jpg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\67d54936-fbca-432f-b009-a128d0575bd2.jpg",
+  "created_at": "2026-02-05T15:21:53.500060+00:00",
+  "tags": [],
+  "notes": "",
+  "ia": {
+    "status": "ok",
+    "analyzed_at": "2026-02-05T15:21:58.554096+00:00",
+    "data": {
+      "category": "t-shirt",
+      "primary_color": "cream",
+      "secondary_color": "brown",
+      "material": "cotton",
+      "finish": "matte",
+      "brand_visible": false,
+      "brand_name": "",
+      "recommended": {
+        "environment_type": "studio",
+        "scene": "white",
+        "style": "ecommerce",
+        "lighting": "studio_soft",
+        "chips": [
+          "clean",
+          "minimal"
+        ]
+      },
+      "quality_issues": [
+        "wrinkles",
+        "fuzz_on_fabric"
+      ],
+      "notes": "T-shirt with a large rose graphic and the text \"HISTORY REMEMBERS THOSE WHO DARED\" printed on the back."
+    }
+  }
+}
