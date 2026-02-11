@@ -1,0 +1,71 @@
+{
+  "product_id": "81555432-a104-4864-af74-828550917c34",
+  "original_filename": "Gemini_Generated_Image_2zrnri2zrnri2zrn.png",
+  "content_type": "image/png",
+  "stored_file": "products\\81555432-a104-4864-af74-828550917c34.png",
+  "created_at": "2026-02-10T23:23:08.061189+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Black Ribbed Crop Top",
+    "category_guess": "apparel",
+    "product_description_long": "This is a black ribbed crop top featuring a sleeveless design and a rounded neckline. The front displays a prominent red broken heart graphic, partially covered by white cursive text that reads \"No Love Only Styles\". A small black label with unidentifiable white text is visible on the bottom right hem.",
+    "key_visual_features": [
+      "black crop top",
+      "ribbed texture",
+      "sleeveless design",
+      "rounded neckline",
+      "red broken heart graphic",
+      "white cursive text inscription",
+      "small black label on hem"
+    ],
+    "materials": [
+      "ribbed fabric"
+    ],
+    "colors": [
+      "black",
+      "red",
+      "white"
+    ],
+    "finish_texture": [
+      "ribbed knit"
+    ],
+    "prompt_boosters": [
+      "high-quality product photography",
+      "flat lay shot",
+      "clear product details",
+      "simple concrete background",
+      "well-lit studio photo",
+      "textured fabric emphasis",
+      "modern apparel design"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-10T23:23:08.061189+00:00",
+  "tags": [],
+  "notes": "",
+  "realized_file": "products\\81555432-a104-4864-af74-828550917c34_real.png",
+  "realized_created_at": "2026-02-10T23:28:52.426021+00:00"
+}

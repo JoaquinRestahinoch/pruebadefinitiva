@@ -1,0 +1,73 @@
+{
+  "product_id": "f8fd605d-217d-4515-b92e-0ef18c18e828",
+  "original_filename": "GREY.png",
+  "content_type": "image/png",
+  "stored_file": "products\\f8fd605d-217d-4515-b92e-0ef18c18e828.png",
+  "created_at": "2026-02-11T01:10:39.942832+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": true,
+  "secondary_file": "products\\f8fd605d-217d-4515-b92e-0ef18c18e828_2.jpeg",
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Top crop gris acanalado",
+    "category_guess": "apparel",
+    "product_description_long": "Un top crop gris claro acanalado con cuello redondo y diseño sin mangas. Presenta un gráfico central de un corazón rojo roto con la inscripción blanca 'No Love Only Style' superpuesta. En la costura lateral derecha, hay una etiqueta vertical negra con texto blanco 'STYLE&CULTURE'.",
+    "key_visual_features": [
+      "Textura acanalada",
+      "Largo crop top",
+      "Cuello redondo",
+      "Sin mangas",
+      "Gráfico de corazón rojo roto",
+      "Inscripción blanca 'No Love Only Style'",
+      "Etiqueta lateral vertical negra con texto blanco 'STYLE&CULTURE'"
+    ],
+    "materials": [
+      "Tejido acanalado"
+    ],
+    "colors": [
+      "Gris claro",
+      "Rojo",
+      "Blanco",
+      "Negro"
+    ],
+    "finish_texture": [
+      "Acanalado",
+      "Mate"
+    ],
+    "prompt_boosters": [
+      "Fotografía de producto, aislado sobre fondo blanco",
+      "Top crop gris acanalado",
+      "Gráfico de corazón rojo roto",
+      "Texto blanco 'No Love Only Style'",
+      "Etiqueta negra 'STYLE&CULTURE' en la costura lateral",
+      "Iluminación de estudio limpia y minimalista",
+      "Vista superior, plano"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:10:39.942832+00:00",
+  "tags": [],
+  "notes": "",
+  "realized_file": "products\\f8fd605d-217d-4515-b92e-0ef18c18e828_real.png",
+  "realized_created_at": "2026-02-11T01:13:01.256220+00:00"
+}

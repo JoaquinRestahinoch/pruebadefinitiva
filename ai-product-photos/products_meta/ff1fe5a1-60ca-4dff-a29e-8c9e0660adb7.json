@@ -1,0 +1,72 @@
+{
+  "product_id": "ff1fe5a1-60ca-4dff-a29e-8c9e0660adb7",
+  "original_filename": "748b9482-36dd-4fb2-8035-6eb2dfd6c57b.png",
+  "content_type": "image/png",
+  "stored_file": "products\\ff1fe5a1-60ca-4dff-a29e-8c9e0660adb7.png",
+  "created_at": "2026-02-11T00:11:19.352719+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Top Corto Acanalado 'No Love Only Style'",
+    "category_guess": "apparel",
+    "product_description_long": "Un top corto de mujer negro con un diseño acanalado distintivo. Presenta un cuello redondo clásico y tirantes estándar, complementando su corte ajustado. La parte frontal está decorada con un gráfico vibrante de un corazón rojo roto, superpuesto con la frase 'No Love Only Style' en elegante caligrafía blanca. Incluye una pequeña etiqueta negra vertical con texto ilegible en el dobladillo lateral derecho.",
+    "key_visual_features": [
+      "Top corto negro",
+      "Tejido acanalado",
+      "Cuello redondo",
+      "Tirantes estándar",
+      "Gráfico de corazón roto rojo",
+      "Inscripción 'No Love Only Style' en blanco",
+      "Etiqueta lateral negra vertical"
+    ],
+    "materials": [
+      "Textil acanalado"
+    ],
+    "colors": [
+      "Negro",
+      "Rojo",
+      "Blanco"
+    ],
+    "finish_texture": [
+      "Acanalado"
+    ],
+    "prompt_boosters": [
+      "Vista cenital del producto",
+      "Top de mujer estilo crop-top",
+      "Tejido de punto acanalado",
+      "Diseño gráfico frontal de corazón y texto",
+      "Detalle de etiqueta en costura lateral",
+      "Fotografía de estudio con fondo plano",
+      "Iluminación dramática con sombras",
+      "Estilo urbano contemporáneo"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T00:11:19.352719+00:00",
+  "tags": [],
+  "notes": "",
+  "realized_file": "products\\ff1fe5a1-60ca-4dff-a29e-8c9e0660adb7_real.png",
+  "realized_created_at": "2026-02-11T00:12:33.887969+00:00"
+}

@@ -1,0 +1,72 @@
+{
+  "product_id": "4651c798-766b-4700-b5ec-858ed3c74350",
+  "original_filename": "ca90db07-b744-4568-861c-4aebd91754f1.png",
+  "content_type": "image/png",
+  "stored_file": "products\\4651c798-766b-4700-b5ec-858ed3c74350.png",
+  "created_at": "2026-02-11T00:34:40.435883+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Cropped Tank Top con Corazón Roto",
+    "category_guess": "apparel",
+    "product_description_long": "Una camiseta de tirantes corta negra con un distintivo diseño acanalado. En el centro del pecho, presenta un gráfico de un corazón rojo roto, sobre el cual se lee la inscripción en blanco 'No Love Only Styles'. La prenda tiene un cuello redondo y un corte sin mangas, exhibiendo una estética moderna y ajustada.",
+    "key_visual_features": [
+      "Diseño de corazón rojo roto",
+      "Inscripción en blanco 'No Love Only Styles'",
+      "Tejido acanalado (ribbed)",
+      "Longitud corta (crop top)",
+      "Diseño sin mangas",
+      "Cuello redondo"
+    ],
+    "materials": [
+      "Textil",
+      "Algodón (presunto por textura)"
+    ],
+    "colors": [
+      "Negro",
+      "Rojo",
+      "Blanco"
+    ],
+    "finish_texture": [
+      "Tejido acanalado",
+      "Acabado mate (estampado)"
+    ],
+    "prompt_boosters": [
+      "Producto en lay flat",
+      "Fondo de hormigón texturizado",
+      "Enfoque en el estampado del corazón",
+      "Resaltar la textura acanalada de la tela",
+      "Iluminación suave y uniforme",
+      "Detalles del texto nítidos",
+      "Contraste de color vibrante (rojo/blanco sobre negro)"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T00:34:40.434865+00:00",
+  "tags": [],
+  "notes": "",
+  "realized_file": "products\\4651c798-766b-4700-b5ec-858ed3c74350_real.png",
+  "realized_created_at": "2026-02-11T00:36:35.876825+00:00"
+}

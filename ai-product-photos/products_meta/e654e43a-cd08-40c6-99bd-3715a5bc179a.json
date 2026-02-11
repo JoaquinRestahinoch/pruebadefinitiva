@@ -1,0 +1,71 @@
+{
+  "product_id": "e654e43a-cd08-40c6-99bd-3715a5bc179a",
+  "original_filename": "GREY.png",
+  "content_type": "image/png",
+  "stored_file": "products\\e654e43a-cd08-40c6-99bd-3715a5bc179a.png",
+  "created_at": "2026-02-11T01:10:19.742619+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Top crop acanalado gris con corazón",
+    "category_guess": "apparel",
+    "product_description_long": "Un top crop de color gris claro, confeccionado en tela acanalada. Presenta un diseño de cuello redondo y sin mangas. En la parte frontal, lleva un gráfico de un corazón roto en color rojo, con texto blanco superpuesto. Un pequeño logo/inscripción visible en una etiqueta negra vertical en el lateral derecho completa el diseño.",
+    "key_visual_features": [
+      "Top crop acanalado",
+      "Color gris claro",
+      "Estampado de corazón roto rojo",
+      "Texto blanco en script sobre el corazón",
+      "Etiqueta negra vertical con texto blanco en el lateral derecho",
+      "Cuello redondo"
+    ],
+    "materials": [
+      "Tejido acanalado"
+    ],
+    "colors": [
+      "Gris claro",
+      "Rojo",
+      "Blanco",
+      "Negro"
+    ],
+    "finish_texture": [
+      "Textura acanalada",
+      "Acabado mate de la tela"
+    ],
+    "prompt_boosters": [
+      "top crop gris acanalado",
+      "estampado corazón roto rojo",
+      "texto blanco en el pecho",
+      "etiqueta vertical negra",
+      "estilo casual moderno",
+      "jersey de punto",
+      "prendas de vestir",
+      "fotografía de producto de moda"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:10:19.742619+00:00",
+  "tags": [],
+  "notes": ""
+}

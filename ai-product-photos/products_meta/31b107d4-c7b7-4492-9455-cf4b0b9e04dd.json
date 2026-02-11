@@ -1,0 +1,73 @@
+{
+  "product_id": "31b107d4-c7b7-4492-9455-cf4b0b9e04dd",
+  "original_filename": "a93ecb3e-dfce-4076-b01e-84f0f45479f3.png",
+  "content_type": "image/png",
+  "stored_file": "products\\31b107d4-c7b7-4492-9455-cf4b0b9e04dd.png",
+  "created_at": "2026-02-11T00:10:50.641004+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Black Ribbed Crop Top with Broken Heart Design",
+    "category_guess": "apparel",
+    "product_description_long": "A sleek black ribbed crop top, designed with a classic round neckline and sleeveless cut. The front is adorned with a prominent graphic featuring the white cursive inscription 'No Love Only Style' layered over a vibrant red broken heart symbol. A small, vertically oriented white brand tag, inscribed with 'STYLOS CHIC', is visible on the lower right hem.",
+    "key_visual_features": [
+      "Black ribbed crop top",
+      "Round neckline",
+      "Sleeveless design",
+      "Central graphic print on chest",
+      "White cursive text 'No Love Only Style'",
+      "Red broken heart symbol (broken in two halves)",
+      "Small white brand tag on lower right hem",
+      "Vertical 'STYLOS CHIC' inscription on tag",
+      "Visible ribbed fabric texture"
+    ],
+    "materials": [
+      "Ribbed fabric",
+      "Textile"
+    ],
+    "colors": [
+      "Black",
+      "Red",
+      "White"
+    ],
+    "finish_texture": [
+      "Ribbed",
+      "Printed design"
+    ],
+    "prompt_boosters": [
+      "Close-up of a black ribbed crop top",
+      "Focus on the 'No Love Only Style' text and broken heart graphic",
+      "Highlight the texture of the ribbed fabric",
+      "Show the small white brand tag on the hem",
+      "Product photography on a light grey concrete surface",
+      "Well-lit, clean, e-commerce style shot",
+      "Emphasize the contrast of red and white on black"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T00:10:50.641004+00:00",
+  "tags": [],
+  "notes": ""
+}

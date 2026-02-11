@@ -1,0 +1,71 @@
+{
+  "product_id": "d501af21-3c1c-42db-8046-08e5120af116",
+  "original_filename": "GREY.png",
+  "content_type": "image/png",
+  "stored_file": "products\\d501af21-3c1c-42db-8046-08e5120af116.png",
+  "created_at": "2026-02-11T01:10:25.372961+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": true,
+  "secondary_file": "products\\d501af21-3c1c-42db-8046-08e5120af116_2.jpg",
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Ribbed Crop Top con Corazón Roto",
+    "category_guess": "apparel",
+    "product_description_long": "Un top corto de punto acanalado de color gris claro con escote y sisas redondeadas. La parte delantera presenta un gráfico de un corazón roto de color rojo vibrante, sobre el cual se superpone un texto en cursiva de color blanco. Una etiqueta de tela negra con texto blanco vertical es visible en la costura lateral inferior izquierda.",
+    "key_visual_features": [
+      "top corto de estilo",
+      "tejido acanalado",
+      "escote redondeado",
+      "gráfico de corazón roto rojo",
+      "texto blanco en cursiva en la parte delantera",
+      "etiqueta de tela negra en la costura lateral"
+    ],
+    "materials": [
+      "tela"
+    ],
+    "colors": [
+      "gris claro",
+      "rojo",
+      "blanco",
+      "negro"
+    ],
+    "finish_texture": [
+      "textura acanalada",
+      "acabado mate de estampado"
+    ],
+    "prompt_boosters": [
+      "top corto acanalado gris claro",
+      "diseño de corazón roto rojo",
+      "letras blancas cursivas",
+      "top de corte ajustado",
+      "prenda casual acanalada",
+      "camiseta gráfica moderna",
+      "toma de estudio, fondo liso",
+      "fotografía de producto"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:10:25.372961+00:00",
+  "tags": [],
+  "notes": ""
+}

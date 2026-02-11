@@ -1,0 +1,70 @@
+{
+  "product_id": "1a401932-9887-4795-baf4-7cdced6aba7c",
+  "original_filename": "BLACK.png",
+  "content_type": "image/png",
+  "stored_file": "products\\1a401932-9887-4795-baf4-7cdced6aba7c.png",
+  "created_at": "2026-02-10T22:58:47.619993+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Black Ribbed Graphic Tank Top",
+    "category_guess": "apparel",
+    "product_description_long": "A black, form-fitting cropped tank top featuring a distinct ribbed texture. The front of the garment displays a graphic print of a broken red heart, overlaid with a white cursive inscription that reads 'No Love Only Style'. On the right side of the top, running vertically, is the white text 'STYLER&CULTURE'.",
+    "key_visual_features": [
+      "Black ribbed tank top",
+      "Cropped length",
+      "Rounded neckline",
+      "Graphic print on chest",
+      "Broken red heart design",
+      "White cursive text 'No Love Only Style'",
+      "Vertical white text 'STYLER&CULTURE' on the side"
+    ],
+    "materials": [
+      "Rib-knit fabric"
+    ],
+    "colors": [
+      "Black",
+      "Red",
+      "White"
+    ],
+    "finish_texture": [
+      "Ribbed knit fabric",
+      "Smooth print"
+    ],
+    "prompt_boosters": [
+      "Black ribbed crop top",
+      "Graphic print with broken heart",
+      "Cursive text 'No Love Only Style'",
+      "Brand text 'STYLER&CULTURE' on side",
+      "Sleeveless design",
+      "Product photography on white background",
+      "Studio lighting"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-10T22:58:47.619993+00:00",
+  "tags": [],
+  "notes": ""
+}

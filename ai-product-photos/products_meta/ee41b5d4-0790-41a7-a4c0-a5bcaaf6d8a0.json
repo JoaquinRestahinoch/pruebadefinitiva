@@ -1,0 +1,75 @@
+{
+  "product_id": "ee41b5d4-0790-41a7-a4c0-a5bcaaf6d8a0",
+  "original_filename": "GRIS.png",
+  "content_type": "image/png",
+  "stored_file": "products\\ee41b5d4-0790-41a7-a4c0-a5bcaaf6d8a0.png",
+  "created_at": "2026-02-11T01:03:24.843143+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Light Grey Ribbed Crop Tank Top",
+    "category_guess": "apparel",
+    "product_description_long": "A light grey ribbed crop tank top, designed with a rounded neckline and a close-fitting cut. The front prominently features a graphic of a red broken heart, over which white script text clearly reads 'No Love Only Style'. A small black woven label with white text is stitched vertically onto the bottom right side seam.",
+    "key_visual_features": [
+      "Ribbed knit texture",
+      "Crop top design",
+      "Rounded neckline",
+      "Red broken heart graphic",
+      "White script text 'No Love Only Style'",
+      "Small black woven label"
+    ],
+    "materials": [
+      "Ribbed knit fabric",
+      "Woven label material"
+    ],
+    "colors": [
+      "Light grey",
+      "Red",
+      "White",
+      "Black"
+    ],
+    "finish_texture": [
+      "Ribbed",
+      "Smooth (for print)",
+      "Matte (fabric)"
+    ],
+    "prompt_boosters": [
+      "Flat lay on grey background",
+      "Studio shot",
+      "E-commerce product photo",
+      "Modern casual wear",
+      "Streetwear aesthetic",
+      "Product photography",
+      "Overhead view apparel",
+      "Fashion item display"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:03:24.843143+00:00",
+  "tags": [],
+  "notes": "",
+  "realized_file": "products\\ee41b5d4-0790-41a7-a4c0-a5bcaaf6d8a0_real.png",
+  "realized_created_at": "2026-02-11T01:05:09.366773+00:00"
+}

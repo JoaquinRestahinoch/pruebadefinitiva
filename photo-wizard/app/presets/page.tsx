@@ -79,6 +79,10 @@ export default function PresetsPage() {
   const [chips, setChips] = useState<string[]>([]);
   const [customText, setCustomText] = useState<string>("");
 
+  const [backgroundRefId, setBackgroundRefId] = useState<string | null>(null);
+  const [backgroundUploading, setBackgroundUploading] = useState(false);
+  const [backgroundError, setBackgroundError] = useState<string | null>(null);
+
   const [style, setStyle] = useState<string>("ecommerce");
   const [lighting, setLighting] = useState<string>("studio_soft");
 
@@ -176,13 +180,35 @@ export default function PresetsPage() {
     setChips((prev) => (prev.includes(c) ? prev.filter((x) => x !== c) : [...prev, c]));
   };
 
+  async function uploadBackgroundRef(file: File) {
+    setBackgroundUploading(true);
+    setBackgroundError(null);
+    try {
+      const fd = new FormData();
+      fd.append("file", file);
+
+      const res = await fetch(`${API_BASE}/upload-background-ref`, {
+        method: "POST",
+        body: fd,
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data?.detail || "Upload background failed");
+
+      setBackgroundRefId(data.background_ref_id);
+    } catch (e: any) {
+      setBackgroundError(e?.message || "Error uploading background");
+    } finally {
+      setBackgroundUploading(false);
+    }
+  }
+
   const handleContinue = () => {
     if (!productId) return;
 
     const payload = {
       product_id: productId,
       environment: { type: envType, scene, scene_text: sceneText, chips, custom_text: customText },
-
+      background_ref_id: backgroundRefId,
       style,
       lighting,
       model: {
@@ -225,6 +251,38 @@ export default function PresetsPage() {
           {!loading && options && (
             <div className="mt-8 grid gap-6">
               <div className="grid gap-2">
+                <label className="text-sm font-medium text-white">Fondo de referencia (opcional)</label>
+                <p className="text-xs text-slate-400">
+                  Si subís una foto de fondo/set, se desactivan los presets de escena para que no se pise.
+                </p>
+                <input
+                  type="file"
+                  accept="image/*"
+                  className="mt-2 block w-full text-sm text-slate-300 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-sm file:font-semibold file:bg-white/10 file:text-white hover:file:bg-white/20"
+                  onChange={(e) => {
+                    const f = e.target.files?.[0];
+                    if (f) uploadBackgroundRef(f);
+                  }}
+                />
+                {backgroundUploading && <div className="mt-2 text-xs text-slate-400">Subiendo fondo…</div>}
+                {backgroundError && <div className="mt-2 text-xs text-red-300">{backgroundError}</div>}
+                {backgroundRefId && (
+                  <div className="mt-3 rounded-xl border border-emerald-500/20 bg-emerald-500/10 p-3 text-xs text-emerald-200">
+                    Background reference ON ✅ (presets de escena deshabilitados)
+                  </div>
+                )}
+                {backgroundRefId && (
+                  <button
+                    type="button"
+                    className="mt-3 w-full rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold hover:bg-white/10"
+                    onClick={() => setBackgroundRefId(null)}
+                  >
+                    Quitar fondo de referencia
+                  </button>
+                )}
+              </div>
+
+              <div className="grid gap-2">
                 <label className="text-sm font-medium text-white">Escenario (texto libre)</label>
                 <p className="text-xs text-slate-400">
                   Ej: "playa al atardecer", "cancha de básquet indoor", "barbería vintage", "joyería en la playa".
@@ -237,37 +295,44 @@ export default function PresetsPage() {
                   placeholder='Ej: "playa al atardecer"'
                 />
                 <p className="text-xs text-emerald-300">
-                  {sceneText.trim() ? "✅ Escenario libre activo (se ignoran los presets)" : "⚪ Vacío: se usan presets de entorno/escena"}
+                  {sceneText.trim() ? "✅ Escenario libre activo (se ignoran los presets)" : backgroundRefId ? "✅ Usando fondo de referencia (presets deshabilitados)" : "⚪ Vacío: se usan presets de entorno/escena"}
                 </p>
               </div>
 
-              <div className="grid gap-2">
-                <label className="text-sm font-medium text-white">Tipo de entorno</label>
-                <select
-                  disabled={!!sceneText.trim()}
-                  className={`border border-white/10 bg-black/20 text-white rounded-xl px-3 py-2 ${sceneText.trim() ? "opacity-50 cursor-not-allowed" : ""}`}
-                  value={envType}
-                  onChange={(e) => setEnvType(e.target.value)}
-                >
-                  {options.environment_types.map((t) => (
-                    <option key={t} value={t}>{t}</option>
-                  ))}
-                </select>
-              </div>
+              {!sceneText.trim() && !backgroundRefId ? (
+                <>
+                  <div className="grid gap-2">
+                    <label className="text-sm font-medium text-white">Tipo de entorno</label>
+                    <select
+                      className="border border-white/10 bg-black/20 text-white rounded-xl px-3 py-2"
+                      value={envType}
+                      onChange={(e) => setEnvType(e.target.value)}
+                    >
+                      {options.environment_types.map((t) => (
+                        <option key={t} value={t}>{t}</option>
+                      ))}
+                    </select>
+                  </div>
 
-              <div className="grid gap-2">
-                <label className="text-sm font-medium text-white">Escena / fondo</label>
-                <select
-                  disabled={!!sceneText.trim()}
-                  className={`border border-white/10 bg-black/20 text-white rounded-xl px-3 py-2 ${sceneText.trim() ? "opacity-50 cursor-not-allowed" : ""}`}
-                  value={scene}
-                  onChange={(e) => setScene(e.target.value)}
-                >
-                  {(options.scenes_by_type[envType] || []).map((s) => (
-                    <option key={s} value={s}>{s}</option>
-                  ))}
-                </select>
-              </div>
+                  <div className="grid gap-2">
+                    <label className="text-sm font-medium text-white">Escena / fondo</label>
+                    <select
+                      className="border border-white/10 bg-black/20 text-white rounded-xl px-3 py-2"
+                      value={scene}
+                      onChange={(e) => setScene(e.target.value)}
+                    >
+                      {(options.scenes_by_type[envType] || []).map((s) => (
+                        <option key={s} value={s}>{s}</option>
+                      ))}
+                    </select>
+                  </div>
+                </>
+              ) : (
+                <div className="rounded-xl border border-white/10 bg-black/20 p-3 text-xs text-slate-300">
+                  {sceneText.trim() && "Presets de escena desactivados: estás usando escenario libre"}
+                  {backgroundRefId && "Presets de escena desactivados: estás usando fondo de referencia"}
+                </div>
+              )}
 
               <div className="grid gap-2">
                 <label className="text-sm font-medium text-white">Mood (chips)</label>

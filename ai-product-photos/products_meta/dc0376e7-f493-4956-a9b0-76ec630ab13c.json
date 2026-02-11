@@ -1,0 +1,66 @@
+{
+  "product_id": "dc0376e7-f493-4956-a9b0-76ec630ab13c",
+  "original_filename": "IMG_6826.jpeg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\dc0376e7-f493-4956-a9b0-76ec630ab13c.jpeg",
+  "created_at": "2026-02-10T22:52:04.153552+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Collar con dije de rosa",
+    "category_guess": "jewelry",
+    "product_description_long": "Un collar de tono plateado con una cadena de eslabones ovalados. El collar presenta un dije detallado en forma de una rosa en flor con hojas. Está exhibido en un soporte de joyería de color negro con textura, sobre un fondo liso de color gris claro.",
+    "key_visual_features": [
+      "Collar de cadena de eslabones ovalados",
+      "Dije con forma de rosa detallada",
+      "Acabado en tono plateado",
+      "Exhibido en un soporte de joyería negro",
+      "Fondo liso gris claro"
+    ],
+    "materials": [
+      "Metal",
+      "Material sintético (soporte)"
+    ],
+    "colors": [
+      "Plateado",
+      "Negro",
+      "Gris claro"
+    ],
+    "finish_texture": [
+      "Pulido (metal)",
+      "Textura granulada (soporte)",
+      "Liso (fondo)"
+    ],
+    "prompt_boosters": [
+      "Mantener el color plateado del collar y dije.",
+      "Respetar la forma detallada del dije de rosa.",
+      "Evitar alterar la textura granulada del soporte negro.",
+      "Asegurar que la cadena de eslabones ovalados sea visible.",
+      "Preservar el contraste entre la joyería y el soporte."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-10T22:52:04.153552+00:00",
+  "tags": [],
+  "notes": ""
+}

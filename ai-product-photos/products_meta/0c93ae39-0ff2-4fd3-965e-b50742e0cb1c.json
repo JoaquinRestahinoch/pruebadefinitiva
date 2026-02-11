@@ -1,0 +1,65 @@
+{
+  "product_id": "0c93ae39-0ff2-4fd3-965e-b50742e0cb1c",
+  "original_filename": "IMG_6826.jpeg",
+  "content_type": "image/jpeg",
+  "stored_file": "products\\0c93ae39-0ff2-4fd3-965e-b50742e0cb1c.jpeg",
+  "created_at": "2026-02-10T22:55:43.213436+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Collar con colgante de rosa",
+    "category_guess": "jewelry",
+    "product_description_long": "Un collar de metal de tono plateado con un colgante detallado en forma de rosa. La rosa tiene pétalos definidos y dos hojas, unida a una cadena de eslabones ovalados. El artículo se presenta sobre un busto de exhibición de joyería de color negro con textura rugosa.",
+    "key_visual_features": [
+      "Colgante de rosa de metal",
+      "Cadena de eslabones ovalados",
+      "Acabado metálico plateado",
+      "Busto de exhibición negro"
+    ],
+    "materials": [
+      "Metal",
+      "Material sintético (para el busto)"
+    ],
+    "colors": [
+      "Plateado",
+      "Negro"
+    ],
+    "finish_texture": [
+      "Pulido (metal)",
+      "Granulado (busto)",
+      "Metálico"
+    ],
+    "prompt_boosters": [
+      "Mantener el brillo y tono plateado del metal.",
+      "Respetar la forma y detalles del colgante de rosa.",
+      "Asegurar la cadena de eslabones ovalados y su interconexión.",
+      "Evitar cualquier distorsión en la joyería.",
+      "Preservar la textura rugosa del busto de exhibición negro.",
+      "Mantener la proporción entre el colgante y la cadena."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-10T22:55:43.212440+00:00",
+  "tags": [],
+  "notes": ""
+}

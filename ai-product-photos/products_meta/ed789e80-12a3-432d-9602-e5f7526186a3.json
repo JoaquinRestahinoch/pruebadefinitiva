@@ -1,0 +1,72 @@
+{
+  "product_id": "ed789e80-12a3-432d-9602-e5f7526186a3",
+  "original_filename": "BLACK.png",
+  "content_type": "image/png",
+  "stored_file": "products\\ed789e80-12a3-432d-9602-e5f7526186a3.png",
+  "created_at": "2026-02-10T23:18:14.798250+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Black Ribbed Crop Top with Heart Print",
+    "category_guess": "apparel",
+    "product_description_long": "This is a black sleeveless crop top featuring a distinct ribbed knit texture and a classic rounded neckline. The front is decorated with a central red, slightly distressed heart graphic, over which white cursive text spells out 'No Love Only Style'. Along the right side, vertical white text clearly reads 'STYLE&CULTURE', adding a unique detail to the garment.",
+    "key_visual_features": [
+      "Black crop top",
+      "Ribbed knit fabric",
+      "Rounded neckline",
+      "Central red distressed heart graphic",
+      "White cursive text 'No Love Only Style'",
+      "Vertical white text 'STYLE&CULTURE' on the right side",
+      "Sleeveless design"
+    ],
+    "materials": [
+      "ribbed knit fabric (likely cotton blend)"
+    ],
+    "colors": [
+      "black",
+      "red",
+      "white"
+    ],
+    "finish_texture": [
+      "ribbed knit",
+      "matte fabric"
+    ],
+    "prompt_boosters": [
+      "Fashionable black ribbed crop top",
+      "Close-up of the red distressed heart design",
+      "Highlight white cursive text 'No Love Only Style'",
+      "Detail shot of the vertical 'STYLE&CULTURE' inscription",
+      "Focus on the ribbed texture of the fabric",
+      "Streetwear aesthetic crop top",
+      "Versatile black top for styling"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-10T23:18:14.798250+00:00",
+  "tags": [],
+  "notes": "",
+  "realized_file": "products\\ed789e80-12a3-432d-9602-e5f7526186a3_real.png",
+  "realized_created_at": "2026-02-10T23:19:10.924567+00:00"
+}
