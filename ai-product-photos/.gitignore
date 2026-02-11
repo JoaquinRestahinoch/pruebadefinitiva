@@ -1,0 +1,9 @@
+*.pyc
+__pycache__/
+.venv/
+env/
+.env
+outputs/
+products/
+products_meta/
+node_modules/
