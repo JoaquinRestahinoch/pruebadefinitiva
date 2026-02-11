@@ -1,0 +1,90 @@
+{
+  "product_id": "b85cf808-c424-4534-9917-793e437dc2ca",
+  "original_filename": "a36b5a32-b89a-429e-98f6-5ad52f837fe5.png",
+  "content_type": "image/png",
+  "stored_file": "products\\b85cf808-c424-4534-9917-793e437dc2ca.png",
+  "created_at": "2026-02-11T01:53:03.124171+00:00",
+  "product_type": "female top",
+  "aesthetic": "luxury",
+  "has_secondary": false,
+  "secondary_file": null,
+  "extra_refs": [
+    {
+      "idx": 1,
+      "path": "products\\b85cf808-c424-4534-9917-793e437dc2ca_extras\\extra_1.jpg",
+      "mime": "image/jpeg",
+      "filename": "ETIQUETA.jpg",
+      "label": "etiqueta"
+    },
+    {
+      "idx": 2,
+      "path": "products\\b85cf808-c424-4534-9917-793e437dc2ca_extras\\extra_2.jpg",
+      "mime": "image/jpeg",
+      "filename": "ESTAMPA.jpg",
+      "label": "estampa"
+    }
+  ],
+  "prefill_custom_text": "look luxury, superficies nobles, reflejos controlados, contraste suave. tela realista, caída natural, costuras nítidas, print integrado en la tela (no sticker), pliegues naturales.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "gray",
+      "chips": [
+        "premium",
+        "luxury",
+        "clean"
+      ]
+    },
+    "style": "instagram_ads",
+    "lighting": "premium",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Top Corto Acanalado con Corazón Roto",
+    "category_guess": "apparel",
+    "product_description_long": "Un top corto sin mangas de color negro, confeccionado en tela acanalada con una pronunciada textura de canalé. Presenta un escote redondo y un dobladillo recto. En el centro, se muestra un gráfico de un corazón rojo roto y una inscripción en texto cursivo blanco que dice 'No Love, Only Styles'. Una pequeña etiqueta blanca vertical es visible en el borde inferior derecho, con un texto apenas legible.",
+    "key_visual_features": [
+      "Black ribbed crop top",
+      "Rounded neckline",
+      "Sleeveless design",
+      "Red broken heart graphic",
+      "White cursive text 'No Love, Only Styles'",
+      "Vertical white tag with illegible text",
+      "Ribbed fabric texture",
+      "Cropped length"
+    ],
+    "materials": [
+      "Textile",
+      "Ribbed knit fabric"
+    ],
+    "colors": [
+      "Black",
+      "Red",
+      "White"
+    ],
+    "finish_texture": [
+      "Ribbed",
+      "Matte"
+    ],
+    "prompt_boosters": [
+      "Black ribbed crop top",
+      "Cropped length fashion item",
+      "Red broken heart graphic on chest",
+      "White cursive text 'No Love, Only Styles'",
+      "Textured knit fabric detail",
+      "Sleeveless design apparel",
+      "Modern urban style aesthetic",
+      "Studio product shot on concrete background"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:53:03.124171+00:00",
+  "tags": [],
+  "notes": "",
+  "realized_file": "products\\b85cf808-c424-4534-9917-793e437dc2ca_real.png",
+  "realized_created_at": "2026-02-11T01:54:46.768433+00:00"
+}

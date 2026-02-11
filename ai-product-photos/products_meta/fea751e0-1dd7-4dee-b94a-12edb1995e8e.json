@@ -1,0 +1,70 @@
+{
+  "product_id": "fea751e0-1dd7-4dee-b94a-12edb1995e8e",
+  "original_filename": "a36b5a32-b89a-429e-98f6-5ad52f837fe5.png",
+  "content_type": "image/png",
+  "stored_file": "products\\fea751e0-1dd7-4dee-b94a-12edb1995e8e.png",
+  "created_at": "2026-02-11T01:50:48.692854+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "extra_refs": [],
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Top corto acanalado negro con corazón roto",
+    "category_guess": "apparel",
+    "product_description_long": "Un top corto sin mangas de color negro, confeccionado en tela acanalada. Presenta un escote redondo y un estampado central de un corazón roto en color rojo, acompañado de la inscripción 'No Love Only Styles' en blanco con tipografía cursiva. Una pequeña etiqueta vertical con texto es visible en la costura inferior derecha del top.",
+    "key_visual_features": [
+      "Top corto",
+      "Diseño sin mangas",
+      "Tela acanalada",
+      "Estampado de corazón roto rojo",
+      "Inscripción 'No Love Only Styles' en blanco",
+      "Cuello redondo",
+      "Etiqueta visible en el lateral derecho inferior"
+    ],
+    "materials": [
+      "Tela acanalada"
+    ],
+    "colors": [
+      "Negro",
+      "Rojo",
+      "Blanco"
+    ],
+    "finish_texture": [
+      "Acabado acanalado",
+      "Superficie textil mate",
+      "Estampado con textura suave"
+    ],
+    "prompt_boosters": [
+      "Vista cenital del producto",
+      "Detalle de estampado y texto",
+      "Textura de tela acanalada",
+      "Diseño de moda urbana",
+      "Estilo casual moderno",
+      "Prenda sin mangas",
+      "Fondo gris texturizado"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:50:48.692854+00:00",
+  "tags": [],
+  "notes": ""
+}

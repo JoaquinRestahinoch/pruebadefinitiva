@@ -1,0 +1,70 @@
+{
+  "product_id": "b2b275d1-592f-49ae-8af4-8729fd6c785f",
+  "original_filename": "a36b5a32-b89a-429e-98f6-5ad52f837fe5.png",
+  "content_type": "image/png",
+  "stored_file": "products\\b2b275d1-592f-49ae-8af4-8729fd6c785f.png",
+  "created_at": "2026-02-11T01:51:21.500811+00:00",
+  "product_type": "female top",
+  "aesthetic": "luxury",
+  "has_secondary": true,
+  "secondary_file": "products\\b2b275d1-592f-49ae-8af4-8729fd6c785f_2.jpg",
+  "extra_refs": [],
+  "prefill_custom_text": "look luxury, superficies nobles, reflejos controlados, contraste suave. tela realista, caída natural, costuras nítidas, print integrado en la tela (no sticker), pliegues naturales.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "gray",
+      "chips": [
+        "premium",
+        "luxury",
+        "clean"
+      ]
+    },
+    "style": "instagram_ads",
+    "lighting": "premium",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Top crop negro acanalado",
+    "category_guess": "apparel",
+    "product_description_long": "Este es un top crop negro acanalado con un escote redondo y diseño sin mangas. El centro presenta un gráfico de un corazón roto rojo sobre el cual se superpone un texto estilizado blanco que dice \"No Love, Only Styles\". Una pequeña etiqueta vertical negra con la inscripción \"STUDIO 01\" es visible en el dobladillo inferior derecho.",
+    "key_visual_features": [
+      "Top crop negro",
+      "Tela acanalada",
+      "Escote redondo",
+      "Diseño sin mangas",
+      "Gráfico de corazón roto rojo",
+      "Texto estilizado blanco \"No Love, Only Styles\"",
+      "Etiqueta vertical con \"STUDIO 01\""
+    ],
+    "materials": [
+      "Tela acanalada"
+    ],
+    "colors": [
+      "Negro",
+      "Rojo",
+      "Blanco"
+    ],
+    "finish_texture": [
+      "Textura de punto acanalado",
+      "Acabado mate"
+    ],
+    "prompt_boosters": [
+      "Top crop negro ajustado",
+      "Diseño casual sin mangas",
+      "Estampado de corazón roto",
+      "Mensaje estilizado en ropa",
+      "Prenda de vestir de streetwear",
+      "Ropa con marca visible",
+      "Textura acanalada visible"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:51:21.500811+00:00",
+  "tags": [],
+  "notes": ""
+}

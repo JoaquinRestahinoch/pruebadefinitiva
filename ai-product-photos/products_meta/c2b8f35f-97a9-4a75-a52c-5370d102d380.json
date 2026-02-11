@@ -1,0 +1,68 @@
+{
+  "product_id": "c2b8f35f-97a9-4a75-a52c-5370d102d380",
+  "original_filename": "a2a6e378-34a4-48f6-b5fa-98852927fb16.png",
+  "content_type": "image/png",
+  "stored_file": "products\\c2b8f35f-97a9-4a75-a52c-5370d102d380.png",
+  "created_at": "2026-02-11T01:23:59.903796+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Black Ribbed Top with Broken Heart Embroidery",
+    "category_guess": "apparel",
+    "product_description_long": "A close-up shot of a black ribbed apparel item, likely a tank top or similar garment, showcasing its texture and design. The fabric features distinct vertical ribbing, suggesting a stretchy and fitted material. Centered on the garment is an embroidered design featuring a red broken heart, accompanied by white cursive text that reads 'No Love, Only Styles'.",
+    "key_visual_features": [
+      "Embroidered broken heart motif",
+      "Cursive white text embroidery",
+      "Vertical ribbed texture of the fabric",
+      "Contrasting red and white design on black background"
+    ],
+    "materials": [
+      "Ribbed knit fabric",
+      "Embroidery thread"
+    ],
+    "colors": [
+      "Black",
+      "Red",
+      "White"
+    ],
+    "finish_texture": [
+      "Ribbed knit",
+      "Embroidered",
+      "Soft matte fabric"
+    ],
+    "prompt_boosters": [
+      "Close-up detailed shot",
+      "Focus on embroidery craftsmanship",
+      "Highlight the ribbed texture of the garment",
+      "Stylish and edgy apparel design",
+      "Contrasting colors for visual impact",
+      "Studio lighting emphasizing texture"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:23:59.903796+00:00",
+  "tags": [],
+  "notes": ""
+}

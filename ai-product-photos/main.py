@@ -184,6 +184,15 @@ CONSISTENCIA DE MODELO (OBLIGATORIO - PRIORIDAD MÁXIMA SI HAY MODELO):
 - Si no podés mantener la identidad 100%, preferí NO mostrar la cara (crop / perfil parcial / espalda) antes que inventar otra persona.
 """
 
+EXTRA_REFS_CLAUSE = """
+REFERENCIAS EXTRA (DETALLES) (OBLIGATORIO SI EXISTEN):
+- Además de Imagen 1 y 2, te puedo pasar imágenes extra etiquetadas (ej: "bordado", "estampa", "cuello", "etiqueta", "parte trasera").
+- Sirven SOLO para lockear microdetalles del MISMO producto (texturas, costuras, patrón del bordado/estampa).
+- NO cambian el escenario/fondo.
+- PROHIBIDO copiar el "mockup look": convertir a prenda real hiperrealista (tela real, caída, volumen natural).
+- Si algún detalle no se ve claro, NO inventes: mantenelo neutro.
+"""
+
 # ===================== HELPERS =====================
 
 def _client() -> genai.Client:
@@ -297,6 +306,82 @@ def _bg_bytes(bg_id: Optional[str]) -> Tuple[Optional[bytes], Optional[str]]:
         return b, _mime_for_path(p)
     except Exception:
         return None, None
+
+def _extras_dir(product_id: str) -> Path:
+    d = PRODUCTS_DIR / f"{product_id}_extras"
+    d.mkdir(exist_ok=True)
+    return d
+
+def _save_extra_files(product_id: str, files: Optional[List[UploadFile]]) -> List[dict]:
+    """
+    Guarda extra files y devuelve lista de metadatos:
+    [{ "idx": 1, "path": "...", "mime": "...", "filename": "..."}]
+    """
+    out = []
+    if not files:
+        return out
+    
+    d = _extras_dir(product_id)
+    for i, f in enumerate(files, start=1):
+        if not f or not getattr(f, "filename", None):
+            continue
+        if not f.content_type or not f.content_type.startswith("image/"):
+            continue
+
+        ext = (f.filename.split(".")[-1] if f.filename else "").lower()
+        if ext not in ["png", "jpg", "jpeg", "webp"]:
+            continue
+
+        raw = f.file.read()
+        if not raw:
+            continue
+
+        p = d / f"extra_{i}.{ext}"
+        p.write_bytes(raw)
+
+        out.append({
+            "idx": i,
+            "path": str(p),
+            "mime": _mime_for_path(p),
+            "filename": f.filename,
+        })
+
+    return out
+
+def _load_extra_refs(product_id: str) -> List[dict]:
+    meta = _load_product_meta(product_id) or {}
+    refs = meta.get("extra_refs") or []
+    if not isinstance(refs, list):
+        return []
+    # filtrar solo los que existen
+    out = []
+    for r in refs:
+        try:
+            p = Path(r.get("path"))
+            if p.exists():
+                out.append(r)
+        except Exception:
+            pass
+    return out
+
+def _parse_extra_labels(extra_labels_json: str, count: int) -> List[str]:
+    """
+    extra_labels_json ejemplo: ["bordado","estampa","cuello"]
+    Si no viene o está roto, llena con "detalle_#"
+    """
+    labels = []
+    try:
+        arr = json.loads(extra_labels_json) if extra_labels_json else []
+        if isinstance(arr, list):
+            labels = [str(x).strip() for x in arr]
+    except Exception:
+        labels = []
+    # normalizar tamaño
+    out = []
+    for i in range(count):
+        lab = labels[i] if i < len(labels) and labels[i] else f"detalle_{i+1}"
+        out.append(lab)
+    return out
 
 def _extract_image_bytes(resp) -> tuple[bytes, str]:
     if not getattr(resp, "candidates", None):
@@ -546,6 +631,7 @@ def _build_instruction(
     has_secondary: bool = False,
     meta: Optional[Dict[str, Any]] = None,
     has_bgref: bool = False,
+    has_extras: bool = False,
 ) -> str:
     meta = meta or {}
     is_apparel = _infer_is_apparel_from_meta(meta)
@@ -617,6 +703,7 @@ Contexto de toma:
         + (BACKGROUND_REF_LOCK_CLAUSE + "\n" if has_bgref else "")
         + (MULTIVIEW_CLAUSE if has_secondary else "")
         + ("\n" + DEMOCKUP_CLAUSE + "\n" if is_apparel else "")
+        + (EXTRA_REFS_CLAUSE if has_extras else "")
         + LOCK_PRODUCT_CLAUSE
         + NO_TEXT_CLAUSE
         + HYPERREALISM_CLAUSE
@@ -641,6 +728,7 @@ def _generate_image_with_prompt(
     bgref_mime: Optional[str] = None,
     hero_ref_bytes: Optional[bytes] = None,
     hero_ref_mime: Optional[str] = None,
+    extra_refs: Optional[List[dict]] = None,
 ) -> Tuple[bytes, str]:
     client = _client()
 
@@ -660,6 +748,18 @@ def _generate_image_with_prompt(
     if hero_ref_bytes and hero_ref_mime:
         contents.append("IMAGEN HERO (referencia del set y/o modelo):")
         contents.append(types.Part.from_bytes(data=hero_ref_bytes, mime_type=hero_ref_mime))
+
+    if extra_refs:
+        for r in extra_refs[:6]:  # cap a 6 extras para no perder coherencia
+            try:
+                p = Path(r["path"])
+                b = p.read_bytes()
+                m = r.get("mime") or _mime_for_path(p)
+                label = (r.get("label") or "detalle").strip()
+                contents.append(f"IMAGEN EXTRA (DETALLE) - etiqueta: {label}")
+                contents.append(types.Part.from_bytes(data=b, mime_type=m))
+            except Exception:
+                continue
 
     contents.append(instruction)
 
@@ -904,7 +1004,8 @@ def list_presets():
 def upload_product(
     file: UploadFile = File(...),
     file2: Optional[UploadFile] = File(None),
-    file_bg: Optional[UploadFile] = File(None),  # ✅ referencia de fondo
+    extra_files: Optional[List[UploadFile]] = File(None),
+    extra_labels: str = Form(""),
     product_type: str = Form(""),
     aesthetic: str = Form("minimalista"),
 ):
@@ -934,15 +1035,14 @@ def upload_product(
                 (PRODUCTS_DIR / f"{product_id}_2.{ext2}").write_bytes(raw2)
                 has_secondary = True
 
-    # fondo referencia opcional
-    has_bgref = False
-    if file_bg is not None and file_bg.filename:
-        extb = (file_bg.filename.split(".")[-1] if file_bg.filename else "").lower()
-        if extb in ["png", "jpg", "jpeg", "webp"]:
-            rawb = file_bg.file.read()
-            if rawb:
-                (PRODUCTS_DIR / f"{product_id}_bg.{extb}").write_bytes(rawb)
-                has_bgref = True
+    # extras opcionales (N)
+    extra_refs = []
+    if extra_files:
+        saved_refs = _save_extra_files(product_id, extra_files)
+        labels = _parse_extra_labels(extra_labels, len(saved_refs))
+        for r, lab in zip(saved_refs, labels):
+            r["label"] = lab
+        extra_refs = saved_refs
 
     prefill = _prefill_custom_text(product_type, aesthetic)
     reco = _recommended_config(product_type, aesthetic)
@@ -964,8 +1064,7 @@ def upload_product(
         "has_secondary": has_secondary,
         "secondary_file": str(_find_secondary_path(product_id)) if has_secondary else None,
 
-        "has_bgref": has_bgref,
-        "bgref_file": str(_find_bgref_path(product_id)) if has_bgref else None,
+        "extra_refs": extra_refs,
 
         "prefill_custom_text": prefill,
         "recommended_config": reco,
@@ -982,7 +1081,7 @@ def upload_product(
         "ok": True,
         "product_id": product_id,
         "has_secondary": has_secondary,
-        "has_bgref": has_bgref,
+        "extras_count": len(extra_refs),
         "view_url": f"{API_BASE}/product/{product_id}",
     }
 
@@ -1089,12 +1188,16 @@ def generate_from_product_config(req: GenerateFromProductConfigRequest):
     sec_bytes, sec_mime = _secondary_bytes(req.product_id)
     has_secondary = bool(sec_bytes and sec_mime)
 
-    instruction = _build_instruction(req, has_secondary=has_secondary, meta=meta, has_bgref=has_bgref)
+    extra_refs = _load_extra_refs(req.product_id)
+    has_extras = len(extra_refs) > 0
+
+    instruction = _build_instruction(req, has_secondary=has_secondary, meta=meta, has_bgref=has_bgref, has_extras=has_extras)
 
     gen_bytes, out_mime = _generate_image_with_prompt(
         product_bytes, product_mime, instruction,
         secondary_bytes=sec_bytes, secondary_mime=sec_mime,
-        bgref_bytes=bg_bytes, bgref_mime=bg_mime
+        bgref_bytes=bg_bytes, bgref_mime=bg_mime,
+        extra_refs=extra_refs
     )
 
     qc = _qc_eval(product_bytes, product_mime, gen_bytes, out_mime) or {}
@@ -1109,7 +1212,8 @@ def generate_from_product_config(req: GenerateFromProductConfigRequest):
         gen_bytes, out_mime = _generate_image_with_prompt(
             product_bytes, product_mime, instruction,
             secondary_bytes=sec_bytes, secondary_mime=sec_mime,
-            bgref_bytes=bg_bytes, bgref_mime=bg_mime
+            bgref_bytes=bg_bytes, bgref_mime=bg_mime,
+            extra_refs=extra_refs
         )
         qc = _qc_eval(product_bytes, product_mime, gen_bytes, out_mime) or qc
         attempts += 1
@@ -1137,6 +1241,9 @@ def generate_pack(req: GeneratePackRequest):
 
     sec_bytes, sec_mime = _secondary_bytes(req.product_id)
     has_secondary = bool(sec_bytes and sec_mime)
+
+    extra_refs = _load_extra_refs(req.product_id)
+    has_extras = len(extra_refs) > 0
 
     # --- DEMOCKUP AUTO (APPAREL): si es ropa, primero genero una base realista y la uso como referencia principal ---
     realized_b, realized_m = _realized_bytes(req.product_id)
@@ -1184,7 +1291,8 @@ def generate_pack(req: GeneratePackRequest):
         ),
         has_secondary=has_secondary,
         meta=meta,
-        has_bgref=has_bgref
+        has_bgref=has_bgref,
+        has_extras=has_extras
     )
 
     # Shot plan fijo y anti-repetición
@@ -1201,7 +1309,8 @@ def generate_pack(req: GeneratePackRequest):
         product_bytes_for_shoot, product_mime_for_shoot, hero_instruction,
         secondary_bytes=sec_bytes if sec_bytes else design_ref_bytes,
         secondary_mime=sec_mime if sec_mime else design_ref_mime,
-        bgref_bytes=bg_bytes, bgref_mime=bg_mime
+        bgref_bytes=bg_bytes, bgref_mime=bg_mime,
+        extra_refs=extra_refs
     )
     hero_bytes, hero_mime = gen_bytes, out_mime
 
@@ -1215,7 +1324,8 @@ def generate_pack(req: GeneratePackRequest):
             product_bytes_for_shoot, product_mime_for_shoot, hero_instruction,
             secondary_bytes=sec_bytes if sec_bytes else design_ref_bytes,
             secondary_mime=sec_mime if sec_mime else design_ref_mime,
-            bgref_bytes=bg_bytes, bgref_mime=bg_mime
+            bgref_bytes=bg_bytes, bgref_mime=bg_mime,
+            extra_refs=extra_refs
         )
         qc = _qc_eval(product_bytes, product_mime, gen_bytes, out_mime) or qc
         hero_bytes, hero_mime = gen_bytes, out_mime
@@ -1246,7 +1356,8 @@ def generate_pack(req: GeneratePackRequest):
             secondary_bytes=sec_bytes if sec_bytes else design_ref_bytes,
             secondary_mime=sec_mime if sec_mime else design_ref_mime,
             bgref_bytes=bg_bytes, bgref_mime=bg_mime,
-            hero_ref_bytes=hero_bytes, hero_ref_mime=hero_mime
+            hero_ref_bytes=hero_bytes, hero_ref_mime=hero_mime,
+            extra_refs=extra_refs
         )
 
         qc = _qc_eval(product_bytes, product_mime, gen_bytes, out_mime) or {}

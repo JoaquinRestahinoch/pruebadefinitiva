@@ -1,0 +1,70 @@
+{
+  "product_id": "b6b027b1-7401-4f1c-ae09-f428a3a8b712",
+  "original_filename": "a36b5a32-b89a-429e-98f6-5ad52f837fe5.png",
+  "content_type": "image/png",
+  "stored_file": "products\\b6b027b1-7401-4f1c-ae09-f428a3a8b712.png",
+  "created_at": "2026-02-11T01:28:20.218922+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Black Ribbed Crop Top",
+    "category_guess": "apparel",
+    "product_description_long": "A black ribbed crop top featuring a classic round neckline and wide shoulder straps. Centered on the chest is a bold graphic of a red broken heart, intricately outlined and filled, with white cursive text overlaid that reads \"No Love, Only Styles.\" The garment is made from a ribbed knit fabric, and a small white brand tag is visible vertically on the bottom right hem.",
+    "key_visual_features": [
+      "Ribbed knit fabric",
+      "Round neckline",
+      "Wide shoulder straps",
+      "Crop top length",
+      "Red broken heart graphic",
+      "White script text \"No Love, Only Styles\"",
+      "Small white brand tag with \"STUDIO OTTIES\" text"
+    ],
+    "materials": [
+      "Fabric (ribbed knit)"
+    ],
+    "colors": [
+      "Black",
+      "Red",
+      "White"
+    ],
+    "finish_texture": [
+      "Ribbed knit texture",
+      "Smooth graphic print"
+    ],
+    "prompt_boosters": [
+      "Ribbed knit texture detail",
+      "Close-up of heart and text graphic",
+      "Studio product shot, flat lay",
+      "Dark concrete background",
+      "Emphasis on garment silhouette",
+      "Highlight contrast of red and white on black",
+      "Clear view of \"STUDIO OTTIES\" tag"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:28:20.218922+00:00",
+  "tags": [],
+  "notes": ""
+}

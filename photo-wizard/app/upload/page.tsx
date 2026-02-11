@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useCallback, useRef } from "react";
+import React, { useState, useCallback, useRef, useMemo } from "react";
 import {
   ImageIcon,
   UploadCloudIcon,
@@ -32,9 +32,11 @@ const tips = [
 async function uploadProductReal(
   file: File,
   file2: File | null,
+  extraFiles: File[],
+  extraLabels: string[],
   productType: string,
   aesthetic: string
-): Promise<{ ok: boolean; product_id?: string; detail?: string; has_secondary?: boolean }> {
+): Promise<{ ok: boolean; product_id?: string; detail?: string; has_secondary?: boolean; extras_count?: number }> {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 20000);
 
@@ -42,6 +44,11 @@ async function uploadProductReal(
     const formData = new FormData();
     formData.append("file", file);
     if (file2) formData.append("file2", file2);
+
+    // extras
+    extraFiles.forEach((f) => formData.append("extra_files", f));
+    formData.append("extra_labels", JSON.stringify(extraLabels));
+
     formData.append("product_type", (productType || "").trim());
     formData.append("aesthetic", (aesthetic || "minimalista").trim());
 
@@ -68,6 +75,7 @@ async function uploadProductReal(
       ok: true,
       product_id: data?.product_id,
       has_secondary: !!data?.has_secondary,
+      extras_count: data?.extras_count || 0,
     };
   } catch (e: any) {
     if (e?.name === "AbortError") {
@@ -88,6 +96,9 @@ export default function UploadPage() {
   const [file, setFile] = useState<File | null>(null);
   const [file2, setFile2] = useState<File | null>(null);
 
+  // extras: label + file
+  const [extraItems, setExtraItems] = useState<{ file: File | null; label: string }[]>([]);
+
   const [preview, setPreview] = useState<string | null>(null);
   const [preview2, setPreview2] = useState<string | null>(null);
 
@@ -105,30 +116,32 @@ export default function UploadPage() {
   const currentStep = 1;
   const totalSteps = 3;
 
-  const handleFileSelect = useCallback(
-    async (selectedFile: File) => {
-      if (!selectedFile.type.startsWith("image/")) {
-        setErrorMessage("Please upload an image file (JPG, PNG, WebP)");
-        setUploadState("error");
-        return;
-      }
+  const extrasCount = useMemo(
+    () => extraItems.filter((x) => x.file).length,
+    [extraItems]
+  );
 
-      if (selectedFile.size > 10 * 1024 * 1024) {
-        setErrorMessage("File size must be less than 10MB");
-        setUploadState("error");
-        return;
-      }
+  const getExtraPayload = useCallback(() => {
+    const extraFiles = extraItems.map((x) => x.file).filter((f): f is File => f !== null);
+    const extraLabels = extraItems.map((x) => (x.label || "").trim());
+    return { extraFiles, extraLabels };
+  }, [extraItems]);
 
-      setFile(selectedFile);
-      setProductId(null);
+  const doUpload = useCallback(
+    async (primary: File, secondary: File | null) => {
       setErrorMessage(null);
       setUploadState("uploading");
 
-      const reader = new FileReader();
-      reader.onload = (e) => setPreview(e.target?.result as string);
-      reader.readAsDataURL(selectedFile);
+      const { extraFiles, extraLabels } = getExtraPayload();
 
-      const result = await uploadProductReal(selectedFile, file2, productType, aesthetic);
+      const result = await uploadProductReal(
+        primary,
+        secondary,
+        extraFiles,
+        extraLabels,
+        productType,
+        aesthetic
+      );
 
       if (result.ok && result.product_id) {
         setUploadState("success");
@@ -136,16 +149,44 @@ export default function UploadPage() {
         localStorage.setItem("product_id", result.product_id);
       } else {
         setUploadState("error");
-        setErrorMessage(result.detail || "Failed to upload image. Please try again.");
+        setErrorMessage(result.detail || "Failed to upload. Please try again.");
       }
     },
-    [file2, productType, aesthetic]
+    [aesthetic, getExtraPayload, productType]
+  );
+
+  const validateImage = (f: File) => {
+    if (!f.type.startsWith("image/")) return "Please upload an image file (JPG, PNG, WebP)";
+    if (f.size > 10 * 1024 * 1024) return "File size must be less than 10MB";
+    return null;
+  };
+
+  const handleFileSelect = useCallback(
+    async (selectedFile: File) => {
+      const err = validateImage(selectedFile);
+      if (err) {
+        setErrorMessage(err);
+        setUploadState("error");
+        return;
+      }
+
+      setFile(selectedFile);
+      setProductId(null);
+      setErrorMessage(null);
+
+      const reader = new FileReader();
+      reader.onload = (e) => setPreview(e.target?.result as string);
+      reader.readAsDataURL(selectedFile);
+
+      await doUpload(selectedFile, file2);
+    },
+    [doUpload, file2]
   );
 
   const handleSecondFileSelect = useCallback(
     async (selectedFile: File) => {
-      if (!selectedFile.type.startsWith("image/")) return;
-      if (selectedFile.size > 10 * 1024 * 1024) return;
+      const err = validateImage(selectedFile);
+      if (err) return;
 
       setFile2(selectedFile);
 
@@ -154,23 +195,31 @@ export default function UploadPage() {
       reader.readAsDataURL(selectedFile);
 
       if (file) {
-        setErrorMessage(null);
-        setUploadState("uploading");
-
-        const result = await uploadProductReal(file, selectedFile, productType, aesthetic);
-
-        if (result.ok && result.product_id) {
-          setUploadState("success");
-          setProductId(result.product_id);
-          localStorage.setItem("product_id", result.product_id);
-        } else {
-          setUploadState("error");
-          setErrorMessage(result.detail || "Failed to upload second image. Please try again.");
-        }
+        await doUpload(file, selectedFile);
       }
     },
-    [file, productType, aesthetic]
+    [doUpload, file]
   );
+
+  const handleExtraLabelChange = (idx: number, val: string) => {
+    const updated = [...extraItems];
+    updated[idx] = { ...updated[idx], label: val };
+    setExtraItems(updated);
+  };
+
+  const handleExtraFileChange = (idx: number, f: File | null) => {
+    const updated = [...extraItems];
+    updated[idx] = { ...updated[idx], file: f };
+    setExtraItems(updated);
+  };
+
+  const addExtra = () => setExtraItems((prev) => [...prev, { file: null, label: "" }]);
+
+  const removeExtra = (idx: number) => {
+    const updated = [...extraItems];
+    updated.splice(idx, 1);
+    setExtraItems(updated);
+  };
 
   const handleRemove = useCallback(() => {
     setFile(null);
@@ -181,6 +230,8 @@ export default function UploadPage() {
 
     setFile2(null);
     setPreview2(null);
+
+    setExtraItems([]);
 
     if (inputRef.current) inputRef.current.value = "";
     if (inputRef2.current) inputRef2.current.value = "";
@@ -245,6 +296,13 @@ export default function UploadPage() {
     window.location.href = "/presets";
   };
 
+  // IMPORTANT: como tu backend crea un product_id nuevo por upload,
+  // si agregás extras después, tenés que re-subir para que el backend los guarde.
+  const handleReupload = async () => {
+    if (!file) return;
+    await doUpload(file, file2);
+  };
+
   const formatFileSize = (bytes: number) => {
     if (bytes < 1024) return `${bytes} B`;
     if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
@@ -256,7 +314,9 @@ export default function UploadPage() {
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
         <header className="mb-10 text-center">
           <h1 className="text-3xl font-semibold tracking-tight text-white">Upload your product</h1>
-          <p className="mt-2 text-slate-400">Add 1–2 photos of your product (2nd is optional) to generate a consistent 5-pack.</p>
+          <p className="mt-2 text-slate-400">
+            Add 1–2 photos of your product (2nd is optional) + extra detail photos (optional) to generate a consistent 5-pack.
+          </p>
           <p className="mt-2 text-xs text-slate-500">API_BASE: {API_BASE}</p>
         </header>
 
@@ -315,7 +375,9 @@ export default function UploadPage() {
                         {uploadState === "dragging" ? <UploadCloudIcon className="size-8" /> : <ImageIcon className="size-8" />}
                       </div>
                       <div className="text-center">
-                        <p className="text-sm font-medium text-white">{uploadState === "dragging" ? "Drop your image here" : "Drag and drop your product image"}</p>
+                        <p className="text-sm font-medium text-white">
+                          {uploadState === "dragging" ? "Drop your image here" : "Drag and drop your product image"}
+                        </p>
                         <p className="mt-1 text-sm text-slate-400">
                           or <span className="font-medium text-white underline underline-offset-4">browse files</span>
                         </p>
@@ -385,6 +447,86 @@ export default function UploadPage() {
                         <img src={preview2} alt="Second preview" className="w-full max-h-64 object-contain" />
                       </div>
                     )}
+                  </div>
+
+                  {/* Extra detail photos */}
+                  <div className="rounded-xl border border-white/10 bg-black/10 p-4">
+                    <div className="text-sm font-semibold text-white">Fotos extra de detalles (opcional)</div>
+                    <div className="mt-1 text-xs text-slate-400">
+                      Ej: bordado, estampa, cuello, etiqueta, parte trasera. Sirven para lockear detalles microespecíficos.
+                    </div>
+
+                    <div className="mt-3 grid gap-3">
+                      {extraItems.map((item, idx) => (
+                        <div key={idx} className="grid grid-cols-12 gap-2 items-end">
+                          <div className="col-span-5 grid gap-1">
+                            <label className="text-xs text-slate-400">Etiqueta</label>
+                            <input
+                              type="text"
+                              placeholder="ej: bordado"
+                              value={item.label}
+                              onChange={(e) => handleExtraLabelChange(idx, e.target.value)}
+                              className="rounded-lg border border-white/10 bg-black/20 px-2 py-2 text-xs text-white placeholder:text-slate-500"
+                            />
+                          </div>
+
+                          <div className="col-span-5 grid gap-1">
+                            <label className="text-xs text-slate-400">Foto</label>
+                            <input
+                              type="file"
+                              accept="image/*"
+                              onChange={(e) => {
+                                const f = e.target.files?.[0] || null;
+                                if (f && validateImage(f)) return;
+                                handleExtraFileChange(idx, f);
+                              }}
+                              className="block w-full text-xs text-slate-300 file:mr-3 file:rounded-lg file:border-0 file:bg-white/10 file:px-3 file:py-2 file:text-xs file:font-semibold file:text-white hover:file:bg-white/15"
+                            />
+                            {item.file && <div className="text-[11px] text-slate-400 truncate">{item.file.name}</div>}
+                          </div>
+
+                          <div className="col-span-2 flex justify-end">
+                            <button
+                              type="button"
+                              onClick={() => removeExtra(idx)}
+                              className="inline-flex items-center justify-center rounded-lg border border-white/15 bg-white/5 px-3 py-2 text-xs text-slate-300 hover:text-red-200 hover:bg-white/10"
+                              title="Eliminar"
+                            >
+                              <XIcon className="size-4" />
+                            </button>
+                          </div>
+                        </div>
+                      ))}
+
+                      <button
+                        type="button"
+                        onClick={addExtra}
+                        className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/15 bg-white/5 px-3 py-2 text-xs font-semibold text-white hover:bg-white/10"
+                      >
+                        + Agregar foto extra
+                      </button>
+
+                      {file && extraItems.length > 0 && (
+                        <div className="mt-2 rounded-lg border border-white/10 bg-black/20 p-3 text-xs text-slate-300">
+                          <div className="flex items-center justify-between gap-3">
+                            <span>
+                              Extras con archivo: <b className="text-white">{extrasCount}</b>
+                            </span>
+                            <button
+                              type="button"
+                              onClick={handleReupload}
+                              disabled={uploadState === "uploading"}
+                              className="rounded-lg bg-white px-3 py-2 text-xs font-semibold text-slate-950 hover:bg-white/90 disabled:opacity-50"
+                            >
+                              Re-upload con extras
+                            </button>
+                          </div>
+                          <div className="mt-1 text-[11px] text-slate-400">
+                            (Tu backend crea un product_id nuevo por upload; re-subí para que guarde estos extras.)
+                          </div>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -487,7 +629,10 @@ export default function UploadPage() {
                     <span>{Math.round((currentStep / totalSteps) * 100)}%</span>
                   </div>
                   <div className="h-2 w-full overflow-hidden rounded-full bg-white/10">
-                    <div className="h-full rounded-full bg-white transition-all duration-500 ease-out" style={{ width: `${(currentStep / totalSteps) * 100}%` }} />
+                    <div
+                      className="h-full rounded-full bg-white transition-all duration-500 ease-out"
+                      style={{ width: `${(currentStep / totalSteps) * 100}%` }}
+                    />
                   </div>
 
                   <div className="mt-4 flex items-center gap-2">

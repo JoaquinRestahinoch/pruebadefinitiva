@@ -1,0 +1,70 @@
+{
+  "product_id": "412b69f2-aab7-43cf-8f29-9083a8149ceb",
+  "original_filename": "BLACK.png",
+  "content_type": "image/png",
+  "stored_file": "products\\412b69f2-aab7-43cf-8f29-9083a8149ceb.png",
+  "created_at": "2026-02-11T01:23:14.789123+00:00",
+  "product_type": "",
+  "aesthetic": "minimalista",
+  "has_secondary": false,
+  "secondary_file": null,
+  "has_bgref": false,
+  "bgref_file": null,
+  "prefill_custom_text": "fondo limpio, colores neutros, props mínimos, estética premium simple. texturas naturales, sombras coherentes, cero look IA, sin artefactos.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "white",
+      "chips": [
+        "clean",
+        "minimal"
+      ]
+    },
+    "style": "ecommerce",
+    "lighting": "studio_soft",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Black Ribbed Tank Top with Broken Heart Graphic",
+    "category_guess": "apparel",
+    "product_description_long": "A black ribbed tank top designed for women, featuring a classic scoop neck and a form-fitting silhouette. The front showcases a prominent red broken heart graphic, accompanied by elegant white script that reads 'No Love Only Style*'. Vertically positioned along the right side of the garment, additional white text clearly displays 'STYLE&CULTURE'.",
+    "key_visual_features": [
+      "black ribbed material",
+      "scoop neck",
+      "red broken heart graphic",
+      "white script text 'No Love Only Style*'",
+      "vertical white text 'STYLE&CULTURE'",
+      "fitted silhouette"
+    ],
+    "materials": [
+      "ribbed fabric"
+    ],
+    "colors": [
+      "black",
+      "red",
+      "white"
+    ],
+    "finish_texture": [
+      "ribbed knit texture",
+      "smooth graphic print"
+    ],
+    "prompt_boosters": [
+      "Ribbed knit crop top",
+      "Red broken heart graphic",
+      "White script typography",
+      "Black background apparel",
+      "Casual fashion item",
+      "Streetwear aesthetic design",
+      "Detailed textile texture",
+      "Product photography style"
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:23:14.789123+00:00",
+  "tags": [],
+  "notes": ""
+}

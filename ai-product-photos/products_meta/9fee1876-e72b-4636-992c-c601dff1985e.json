@@ -1,0 +1,68 @@
+{
+  "product_id": "9fee1876-e72b-4636-992c-c601dff1985e",
+  "original_filename": "a36b5a32-b89a-429e-98f6-5ad52f837fe5.png",
+  "content_type": "image/png",
+  "stored_file": "products\\9fee1876-e72b-4636-992c-c601dff1985e.png",
+  "created_at": "2026-02-11T01:52:21.661807+00:00",
+  "product_type": "female top",
+  "aesthetic": "luxury",
+  "has_secondary": false,
+  "secondary_file": null,
+  "extra_refs": [],
+  "prefill_custom_text": "look luxury, superficies nobles, reflejos controlados, contraste suave. tela realista, caída natural, costuras nítidas, print integrado en la tela (no sticker), pliegues naturales.",
+  "recommended_config": {
+    "environment": {
+      "type": "studio",
+      "scene": "gray",
+      "chips": [
+        "premium",
+        "luxury",
+        "clean"
+      ]
+    },
+    "style": "instagram_ads",
+    "lighting": "premium",
+    "model_defaults": {
+      "enabled": false,
+      "gender": "female",
+      "age_range": "25-35",
+      "appearance": ""
+    }
+  },
+  "auto_product_desc": {
+    "title_short": "Top crop acanalado negro con corazón roto",
+    "category_guess": "apparel",
+    "product_description_long": "Se trata de un top crop negro sin mangas y con cuello redondo, confeccionado en tela acanalada. En el centro, presenta un gráfico rojo de un corazón roto, complementado con la inscripción en letra cursiva blanca que dice 'No Love Only Sales'. Una pequeña etiqueta vertical blanca con la inscripción 'STUDIO 0115' es visible en la parte inferior derecha de la prenda.",
+    "key_visual_features": [
+      "Top crop sin mangas",
+      "Cuello redondo",
+      "Gráfico de corazón roto rojo",
+      "Texto cursivo blanco 'No Love Only Sales'",
+      "Etiqueta vertical blanca con inscripción 'STUDIO 0115'"
+    ],
+    "materials": [
+      "Tela textil"
+    ],
+    "colors": [
+      "Negro",
+      "Rojo",
+      "Blanco"
+    ],
+    "finish_texture": [
+      "Acanalado",
+      "Mate"
+    ],
+    "prompt_boosters": [
+      "Primer plano de tejido acanalado negro.",
+      "Detalle del corazón roto rojo.",
+      "Enfoque en la inscripción cursiva blanca.",
+      "Vista del cuello redondo y el diseño sin mangas.",
+      "Presentación del top crop sobre fondo oscuro.",
+      "Destacar la textura de la tela acanalada.",
+      "Incluir la pequeña etiqueta visible en el lateral."
+    ]
+  },
+  "auto_product_desc_created_at": "2026-02-11T01:52:21.661807+00:00",
+  "tags": [],
+  "notes": ""
+}
